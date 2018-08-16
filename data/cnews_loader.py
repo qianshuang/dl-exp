@@ -136,30 +136,6 @@ def pad_sequences(sequences,
                   padding='pre',
                   truncating='pre',
                   value=0.):
-    """Pads each sequence to the same length (length of the longest sequence).
-    If maxlen is provided, any sequence longer
-    than maxlen is truncated to maxlen.
-    Truncation happens off either the beginning (default) or
-    the end of the sequence.
-
-    Supports post-padding and pre-padding (default).
-
-    Arguments:
-        sequences: list of lists where each element is a sequence
-        maxlen: int, maximum length
-        dtype: type to cast the resulting sequence.
-        padding: 'pre' or 'post', pad either before or after each sequence.
-        truncating: 'pre' or 'post', remove values from sequences larger than
-            maxlen either in the beginning or in the end of the sequence
-        value: float, value to pad the sequences to the desired value.
-
-    Returns:
-        x: numpy array with dimensions (number_of_sequences, maxlen)
-
-    Raises:
-        ValueError: in case of invalid values for `truncating` or `padding`,
-            or in case of invalid shape for a `sequences` entry.
-    """
     if not hasattr(sequences, '__len__'):
         raise ValueError('`sequences` must be iterable.')
     lengths = []
@@ -210,18 +186,6 @@ def pad_sequences(sequences,
 
 
 def to_categorical(y, num_classes=None):
-    """Converts a class vector (integers) to binary class matrix.
-
-    E.g. for use with categorical_crossentropy.
-
-    Arguments:
-        y: class vector to be converted into a matrix
-            (integers from 0 to num_classes).
-        num_classes: total number of classes.
-
-    Returns:
-        A binary matrix representation of the input.
-    """
     y = np.array(y, dtype='int').ravel()
     if not num_classes:
         num_classes = np.max(y) + 1
@@ -264,3 +228,17 @@ def batch_iter(x, y, batch_size=64):
         start_id = i * batch_size
         end_id = min((i + 1) * batch_size, data_len)
         yield x_shuffle[start_id:end_id], y_shuffle[start_id:end_id]
+
+
+def build_fxy(word_to_id, cat_to_id):
+    F = np.zeros((len(word_to_id), len(cat_to_id)))
+
+    contents, labels = read_file(train_dir)
+    for i in range(len(contents)):
+        words = list(contents[i].strip())
+        words = remove_stopwords(words)
+        dd = [word_to_id[x] for x in words if x in word_to_id]
+        ld = cat_to_id[labels[i]]
+        for di in dd:
+            F[di][ld] += 1
+    return F

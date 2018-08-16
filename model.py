@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
 
 import tensorflow as tf
+import numpy as np
 
 
 class TCNNConfig(object):
     """配置参数"""
-    vocab_size = 0          # 词表大小
+    vocab_size = 5000          # 词表大小
     num_classes = 10        # 类别数
     learning_rate = 1e-3    # 学习率
 
@@ -19,9 +20,11 @@ class TCNNConfig(object):
 
     dropout_keep_prob = 0.5  # dropout
 
+    F = np.zeros((vocab_size,num_classes))
+
 
 class TextCNN(object):
-    """文本分类，logisticRegression模型"""
+    """文本分类，maxent模型"""
     def __init__(self, config):
         self.config = config
 
@@ -33,10 +36,11 @@ class TextCNN(object):
 
     def log(self):
         W = tf.Variable(tf.truncated_normal([self.config.vocab_size, self.config.num_classes], stddev=0.1))
-        b = tf.Variable(tf.constant(0.1, shape=[self.config.num_classes]))
+        # b = tf.Variable(tf.constant(0.1, shape=[self.config.num_classes]))
 
         with tf.name_scope("score"):
-            y_conv = tf.matmul(self.input_x, W) + b
+            # y_conv = tf.matmul(self.input_x, W) + b
+            y_conv = tf.matmul(self.input_x, W * self.config.F)  # 特征函数与权重点乘
             self.y_pred_cls = tf.argmax(y_conv, 1)  # 预测类别
 
         with tf.name_scope("optimize"):

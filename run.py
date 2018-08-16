@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from sr_model import *
-from data.cnews_loader_lr import *
+from model import *
+from data.cnews_loader import *
 from sklearn import metrics
 
 import time
@@ -154,12 +154,13 @@ def test():
 
 
 if __name__ == '__main__':
-    print('Configuring LR model...')
+    print('Configuring MaxEnt model...')
     config = TCNNConfig()
-    if not os.path.exists(vocab_dir):  # 如果不存在词汇表，重建
+    if not os.path.exists(vocab_dir):
         build_vocab(train_dir, vocab_dir)
     categories, cat_to_id = read_category()
     words, word_to_id = read_vocab(vocab_dir)
+    config.F = build_fxy(word_to_id, cat_to_id)  # 构建最大熵模型的特征函数矩阵
     config.vocab_size = len(words)
     config.num_classes = len(categories)
     model = TextCNN(config)
