@@ -73,11 +73,13 @@ import tensorflow as tf
 #     print(z_val)  # 15
 
 
-# # 对于Variable变量，如果检测到命名冲突，系统会自动处理
+# 对于Variable变量，如果检测到命名冲突，系统会自动处理
 # w_1 = tf.Variable(3, name="w_1", trainable=False)  # trainable=False，不需要训练的变量，默认True
 # w_2 = tf.Variable(3, name="w_1")
+# w_3_1 = tf.get_variable(name="w_1", initializer=1)  # get_variable变量与Variable变量可以同名
 # print(w_1.name)  # w_1:0
 # print(w_2.name)  # w_1_1:0
+# print(w_3_1.name)  # w_1_2:0
 #
 # # get_variable也可以用来创建变量，当命名冲突时，系统会报错
 # w_3 = tf.get_variable(name="w_2", initializer=1)
@@ -103,6 +105,7 @@ import tensorflow as tf
 
 # with tf.variable_scope("foo"):
 #     v = tf.get_variable("v", [1])
+#     # v = tf.Variable([1], name="v", dtype=tf.float32)
 #     x = 1.0 + v
 # # variable_scope影响了ops的name
 # print(x.op.name)  # "foo/add"
@@ -122,12 +125,66 @@ import tensorflow as tf
 # print(tf.trainable_variables())  # [<tf.Variable 'foo/v:0' shape=(1,) dtype=float32_ref>]
 
 
-e1 = tf.get_variable('e1', [5000, 64])
-print(e1.shape)  # (5000, 64)
-print(e1.get_shape())  # (5000, 64)，上一句方法的别名
-print(tf.shape(e1))  # Tensor("Shape:0", shape=(2,), dtype=int32)
-
-e1_ = tf.reshape(e1, [64, 5000])
-print(e1_.shape)  # (64, 5000)
+# e1 = tf.get_variable('e1', [5000, 64])
+# print(e1.shape)  # (5000, 64)
+# print(e1.get_shape())  # (5000, 64)，上一句方法的别名
+# print(tf.shape(e1))  # Tensor("Shape:0", shape=(2,), dtype=int32)
+#
+# e1_ = tf.reshape(e1, [64, -1])
+# print(e1_.shape)  # (64, 5000)
 
 # e2 = tf.get_variable('e2', [None, 64])  # 报错：ValueError: Shape of a new variable (e2) must be fully defined, but instead was (?, 64).
+
+
+# A = tf.placeholder(tf.int32, shape=(None, 3))  # 第一个None表示此值未知，根据传入的数据推断出
+# print(A.shape)  # (?, 3)
+# A_shape = tf.shape(A)[0]
+# B = A + A_shape
+#
+# with tf.Session() as sess:
+#     B_val_1 = B.eval(feed_dict={A: [[1, 2, 3]]})
+#     B_val_1 = sess.run(B, feed_dict={A: [[1, 2, 3]]})  # 效果同上
+#     B_val_2 = B.eval(feed_dict={A: [[4, 5, 6], [7, 8, 9]]})
+# print(B_val_1)  # [[2 3 4]]
+# print(B_val_2)  # [[ 6  7  8], [ 9 10 11]]
+
+
+# theta = tf.Variable(4, name='theta')
+# plus = theta + 10
+# training_op = tf.assign(theta, plus)
+#
+# init = tf.global_variables_initializer()
+# # 在构件图完成后，创建一个saver节点
+# # saver = tf.train.Saver({"weights": theta})
+# saver = tf.train.Saver()
+# with tf.Session() as sess:
+#     sess.run(init)
+#     sess.run(training_op)
+#     # 在执行图阶段，可以随时调用save方法，保存模型，保存当面session所在的图上的所有节点
+#     save_path = saver.save(sess, "tmp/checkpoint/my_model.ckpt")
+# with tf.Session() as sess:
+#     # 在执行的开始阶段，加载模型，这时候不需要sess.run(init)，因为加载过程已经初始化好了（但是注意所有变量已定义）
+#     saver.restore(sess, "tmp/checkpoint/my_model.ckpt")
+#     print(theta.name)  # theta:0
+#     print(sess.run(theta))  # 14
+#     print(tf.global_variables())  # [<tf.Variable 'theta:0' shape=() dtype=int32_ref>]
+
+
+theta = tf.Variable(4, name='theta')
+plus = theta + 10
+training_op = tf.assign(theta, plus)
+
+init = tf.global_variables_initializer()
+# 在构件图完成后，创建一个summary节点，默认添加到图集合GraphKeys.SUMMARIES
+mse_summary = tf.summary.scalar('MSE', training_op)
+# 每次运行前清空该目录，否则TensorBoard会合并已有内容，使可视化混乱
+file_writer = tf.summary.FileWriter("tmp/tensorboard/", tf.get_default_graph())
+
+with tf.Session() as sess:
+    sess.run(init)
+    summary_str = mse_summary.eval()
+    # 记录日志数据和当前迭代步数
+    file_writer.add_summary(summary_str, 50)
+    file_writer.add_summary(summary_str, 100)
+    # 关闭FileWriter
+    file_writer.close()
