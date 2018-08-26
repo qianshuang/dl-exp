@@ -2,26 +2,28 @@
 
 import tensorflow as tf
 
-# print(tf.__version__)  # 输出版本号，测试安装
-#
-# # 定义两个变量x,y和函数表达式f(x,y)
-# # 这段变量及函数定义代码并不执行任何计算，只是创建了一张TensorFlow计算图，而且变量都还没有被真正的赋予值
-# x = tf.Variable(3, name="x")  # 在计算图上创建一个变量定义节点
-# y = tf.Variable(4, name="y")
-# f = x*x*y + y + 2  # 在计算图上创建一个表达式计算节点
-#
-# 1. 想要计算值，我们需要打开一个TensorFlow session，用它来给变量初始化并执行计算
-# 2. TensorFlow session负责将计算放置在CPU或GPU上运行，默认是放置在GPU上
+print(tf.__version__)  # 输出版本号，测试安装
+
+# 定义两个变量x,y和函数表达式f(x,y)
+# 这段变量及函数定义代码并不执行任何计算，只是创建了一张TensorFlow计算图，而且变量都还没有被真正的赋予值
+x = tf.Variable(3, name="x")  # 在计算图上创建一个变量定义节点
+y = tf.Variable(4, name="y")
+f = x*x*y + y + 2  # 在计算图上创建一个表达式计算节点
+print(f)
+
+# # 1. 想要计算值，我们需要打开一个TensorFlow session，用它来给变量初始化并执行计算
+# # 2. TensorFlow session负责将计算放置在CPU或GPU上运行，默认是放置在GPU上
 # sess = tf.Session()
 # sess.run(x.initializer)
 # sess.run(y.initializer)
 # result = sess.run(f)  # 执行计算
 # print(result)
 # sess.close()  # 释放资源
-#
+
 # # 更优雅的写法如下
 # with tf.Session() as sess:  # with块中，sess被设置为默认session，执行完后自动释放资源
 #     x.initializer.run()  # 等价于tf.get_default_session().run(x.initializer)
+#     print(x.eval())
 #     y.initializer.run()
 #     result = f.eval()  # 等价于tf.get_default_session().run(f)
 #     print(result)
@@ -73,7 +75,7 @@ import tensorflow as tf
 #     print(z_val)  # 15
 
 
-# 对于Variable变量，如果检测到命名冲突，系统会自动处理
+# # 对于Variable变量，如果检测到命名冲突，系统会自动处理
 # w_1 = tf.Variable(3, name="w_1", trainable=False)  # trainable=False，不需要训练的变量，默认True
 # w_2 = tf.Variable(3, name="w_1")
 # w_3_1 = tf.get_variable(name="w_1", initializer=1)  # get_variable变量与Variable变量可以同名
@@ -116,11 +118,12 @@ import tensorflow as tf
 #         v1 = tf.get_variable("v", [1])
 #         x = 1.0 + v1  # foo_1/bar/add:0
 # # name_scope对变量名无影响
-# print(v.name)  # foo/v:0
+# print(v1.name)  # foo/v:0
+# print(v is v1)
 # # name_scope影响了ops的name
 # print(x.op.name)  # foo_1/bar/add
 # print(x.name)  # foo_1/bar/add:0
-# # x不再是一个变量，而变成了一个常量tensor
+# # x不再是一个变量，而是定义了一个操作，所以不在tf.trainable_variables()集合中出现
 # print(tf.global_variables())  # [<tf.Variable 'foo/v:0' shape=(1,) dtype=float32_ref>]
 # print(tf.trainable_variables())  # [<tf.Variable 'foo/v:0' shape=(1,) dtype=float32_ref>]
 
@@ -136,9 +139,10 @@ import tensorflow as tf
 # e2 = tf.get_variable('e2', [None, 64])  # 报错：ValueError: Shape of a new variable (e2) must be fully defined, but instead was (?, 64).
 
 
-# A = tf.placeholder(tf.int32, shape=(None, 3))  # 第一个None表示此值未知，根据传入的数据推断出
+# A = tf.placeholder(tf.int32, shape=(None, None))  # 第一个None表示此值未知，根据传入的数据推断出
 # print(A.shape)  # (?, 3)
-# A_shape = tf.shape(A)[0]
+# A_shape = tf.shape(A)[0]  # 等价于A.get_shape()[0]
+# # A_shape = A.shape[0]  # 不能动态推断出来
 # B = A + A_shape
 #
 # with tf.Session() as sess:

@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 import tensorflow as tf
-import numpy as np
 
 
 class TCNNConfig(object):
@@ -18,11 +17,9 @@ class TCNNConfig(object):
 
     dropout_keep_prob = 0.5  # dropout
 
-    # F = np.zeros((vocab_size,num_classes))
-
 
 class TextCNN(object):
-    """文本分类，maxent or 逻辑回归模型"""
+    """文本分类，MLP模型"""
     def __init__(self, config):
         self.config = config
 
@@ -33,12 +30,23 @@ class TextCNN(object):
         self.log()
 
     def log(self):
-        W = tf.Variable(tf.truncated_normal([self.config.vocab_size, self.config.num_classes], stddev=0.1))
-        b = tf.Variable(tf.constant(0.1, shape=[self.config.num_classes]))
-
         with tf.name_scope("score"):
-            y_conv = tf.matmul(self.input_x, W) + b
-            # y_conv = tf.matmul(self.input_x, W * self.config.F)  # 特征函数与权重点乘
+            # hidden layer
+            # 使用truncated_normal（高斯）初始化权重，可以避免大的权重值减慢训练，切记不可用全0初始化，回忆BP原理
+            W1 = tf.Variable(tf.truncated_normal([self.config.vocab_size, 1024], stddev=0.1))  # 隐藏层1024个神经元
+            b1 = tf.Variable(tf.constant(0.1, shape=[1024]))
+            y_conv_1 = tf.matmul(self.input_x, W1) + b1
+            layer_1 = tf.nn.relu(y_conv_1)  # 激活函数
+
+            # 以上代码还可以通过下面的方式简化实现：
+            # y_conv_1 = tf.layers.dense(self.input_x, 1024)
+            # y_conv_1 = tf.contrib.layers.fully_connected(self.input_x, 1024, weights_regularizer=tf.contrib.layers.l2_regularizer(scale=0.001))
+
+            # output layer
+            W2 = tf.Variable(tf.truncated_normal([1024, self.config.num_classes], stddev=0.1))
+            b2 = tf.Variable(tf.constant(0.1, shape=[self.config.num_classes]))
+            y_conv = tf.matmul(layer_1, W2) + b2
+
             self.y_pred_cls = tf.argmax(y_conv, 1)  # 预测类别
 
         with tf.name_scope("optimize"):

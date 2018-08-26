@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from model import *
+from MLP_model import *
 from data.cnews_loader import *
 from sklearn import metrics
 
@@ -154,13 +154,14 @@ def test():
 
 
 if __name__ == '__main__':
-    print('Configuring MaxEnt model...')
+    print('Configuring model...')
     config = TCNNConfig()
     if not os.path.exists(vocab_dir):
         build_vocab(train_dir, vocab_dir)
     categories, cat_to_id = read_category()
     words, word_to_id = read_vocab(vocab_dir)
-    config.F = build_fxy(word_to_id, cat_to_id)  # 构建最大熵模型的特征函数矩阵
+    # 构建最大熵模型的特征函数矩阵
+    # config.F = build_fxy(word_to_id, cat_to_id)
     config.vocab_size = len(words)
     config.num_classes = len(categories)
     model = TextCNN(config)
