@@ -44,6 +44,7 @@ class TextCNN(object):
         with tf.name_scope("optimize"):
             self.loss = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels=self.input_y, logits=y_conv))
             # 优化器
+            # self.optim = tf.train.GradientDescentOptimizer()
             self.optim = tf.train.AdamOptimizer(learning_rate=self.config.learning_rate).minimize(self.loss)
 
         with tf.name_scope("accuracy"):
