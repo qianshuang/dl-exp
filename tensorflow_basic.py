@@ -6,10 +6,10 @@ print(tf.__version__)  # 输出版本号，测试安装
 
 # 定义两个变量x,y和函数表达式f(x,y)
 # 这段变量及函数定义代码并不执行任何计算，只是创建了一张TensorFlow计算图，而且变量都还没有被真正的赋予值
-x = tf.Variable(3, name="x")  # 在计算图上创建一个变量定义节点
-y = tf.Variable(4, name="y")
-f = x*x*y + y + 2  # 在计算图上创建一个表达式计算节点
-print(f)
+# x = tf.Variable(3, name="x")  # 在计算图上创建一个变量定义节点
+# y = tf.Variable(4, name="y")
+# f = x*x*y + y + 2  # 在计算图上创建一个表达式计算节点
+# print(f)
 
 # # 1. 想要计算值，我们需要打开一个TensorFlow session，用它来给变量初始化并执行计算
 # # 2. TensorFlow session负责将计算放置在CPU或GPU上运行，默认是放置在GPU上
@@ -174,21 +174,38 @@ print(f)
 #     print(tf.global_variables())  # [<tf.Variable 'theta:0' shape=() dtype=int32_ref>]
 
 
-theta = tf.Variable(4, name='theta')
-plus = theta + 10
-training_op = tf.assign(theta, plus)
+# theta = tf.Variable(4, name='theta')
+# plus = theta + 10
+# training_op = tf.assign(theta, plus)
+#
+# init = tf.global_variables_initializer()
+# # 在构件图完成后，创建一个summary节点，默认添加到图集合GraphKeys.SUMMARIES
+# mse_summary = tf.summary.scalar('MSE', training_op)
+# # 每次运行前清空该目录，否则TensorBoard会合并已有内容，使可视化混乱
+# file_writer = tf.summary.FileWriter("tmp/tensorboard/", tf.get_default_graph())
+#
+# with tf.Session() as sess:
+#     sess.run(init)
+#     summary_str = mse_summary.eval()
+#     # 记录日志数据和当前迭代步数
+#     file_writer.add_summary(summary_str, 50)
+#     file_writer.add_summary(summary_str, 100)
+#     # 关闭FileWriter
+#     file_writer.close()
+
+
+emb = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+emb_var = tf.Variable(emb, trainable=False)
+emb_tensor = tf.convert_to_tensor(emb)  # 转换为常量tensor
+
+emb_in_1 = tf.nn.embedding_lookup(emb, [0, 1])
+emb_in_2 = tf.nn.embedding_lookup(emb_var, [0, 1])
+emb_in_3 = tf.nn.embedding_lookup(emb_tensor, [0, 1])
 
 init = tf.global_variables_initializer()
-# 在构件图完成后，创建一个summary节点，默认添加到图集合GraphKeys.SUMMARIES
-mse_summary = tf.summary.scalar('MSE', training_op)
-# 每次运行前清空该目录，否则TensorBoard会合并已有内容，使可视化混乱
-file_writer = tf.summary.FileWriter("tmp/tensorboard/", tf.get_default_graph())
 
 with tf.Session() as sess:
+    print(sess.run(emb_in_1))  # [1 4]
     sess.run(init)
-    summary_str = mse_summary.eval()
-    # 记录日志数据和当前迭代步数
-    file_writer.add_summary(summary_str, 50)
-    file_writer.add_summary(summary_str, 100)
-    # 关闭FileWriter
-    file_writer.close()
+    print(sess.run(emb_in_2))  # [[1 2 3] [4 5 6]]
+    print(sess.run(emb_in_3))  # [[1 2 3] [4 5 6]]
