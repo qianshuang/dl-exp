@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0b5cdad1-aa8c-448b-ba64-e7ae022cd2da" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model.py" afterPath="$PROJECT_DIR$/model.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run.py" afterPath="$PROJECT_DIR$/run.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,8 +17,8 @@
       <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="155" column="26" lean-forward="true" selection-start-line="155" selection-start-column="26" selection-end-line="155" selection-end-column="26" />
+            <state relative-caret-position="1665">
+              <caret line="111" column="65" lean-forward="true" selection-start-line="111" selection-start-column="65" selection-end-line="111" selection-end-column="65" />
               <folding>
                 <element signature="e#25#48#0" expanded="true" />
               </folding>
@@ -25,17 +26,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cnews_loader.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cnews_loader.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data/cnews_loader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
+            <state relative-caret-position="3307">
               <caret line="226" column="28" lean-forward="false" selection-start-line="226" selection-start-column="19" selection-end-line="226" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MLP_model.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MLP_model.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MLP_model.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="222">
@@ -63,8 +64,9 @@
       <find>xiaomi</find>
       <find>dropout_keep_prob</find>
       <find>keep_prob</find>
-      <find>feed_data</find>
       <find>w_1</find>
+      <find>feed_data</find>
+      <find>feed_dict</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -85,14 +87,14 @@
         <option value="$PROJECT_DIR$/run_sr.py" />
         <option value="$PROJECT_DIR$/data/cnews_loader_lr.py" />
         <option value="$PROJECT_DIR$/sr_model.py" />
-        <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/tensorflow_basic.py" />
         <option value="$PROJECT_DIR$/MLP_model.py" />
         <option value="$PROJECT_DIR$/model.py" />
+        <option value="$PROJECT_DIR$/run.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="737" />
@@ -259,10 +261,9 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="737" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="737" extended-state="1" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24313408" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24313408" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986626" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.64118564" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -569,24 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/cnews_loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="226" column="28" lean-forward="false" selection-start-line="226" selection-start-column="19" selection-end-line="226" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="155" column="26" lean-forward="true" selection-start-line="155" selection-start-column="26" selection-end-line="155" selection-end-column="26" />
-          <folding>
-            <element signature="e#25#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -607,6 +590,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="36" column="60" lean-forward="true" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1665">
+          <caret line="111" column="65" lean-forward="true" selection-start-line="111" selection-start-column="65" selection-end-line="111" selection-end-column="65" />
+          <folding>
+            <element signature="e#25#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/cnews_loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3307">
+          <caret line="226" column="28" lean-forward="false" selection-start-line="226" selection-start-column="19" selection-end-line="226" selection-end-column="28" />
           <folding />
         </state>
       </provider>
