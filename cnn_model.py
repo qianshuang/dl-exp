@@ -20,7 +20,7 @@ class TCNNConfig(object):
     batch_size = 64         # 每批训练大小
     num_epochs = 50         # 总迭代轮次
 
-    print_per_batch = 10    # 每多少轮输出一次结果
+    print_per_batch = 50    # 每多少轮输出一次结果
     save_per_batch = 10      # 每多少轮存入tensorboard
 
 
@@ -40,6 +40,7 @@ class TextCNN(object):
         """CNN模型"""
         # 词向量映射
         with tf.device('/cpu:0'):
+            # 模型自己学出词向量矩阵
             embedding = tf.get_variable('embedding', [self.config.vocab_size, self.config.embedding_dim])
             embedding_inputs = tf.nn.embedding_lookup(embedding, self.input_x)
 

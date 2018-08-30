@@ -212,6 +212,23 @@ def process_file(filename, word_to_id, cat_to_id, vocab_size):
     return data, to_categorical(label)
 
 
+def process_cnn_file(filename, word_to_id, cat_to_id, seq_length):
+    """将文件转换为id表示"""
+    contents, labels = read_file(filename)
+
+    data = []
+    label = []
+    for i in range(len(contents)):
+        words = list(contents[i].strip())
+        words = remove_stopwords(words)
+        data.append([word_to_id[x] for x in words if x in word_to_id])
+        label.append(cat_to_id[labels[i]])
+
+    x_pad = pad_sequences(data, maxlen=seq_length, padding='post', truncating='post')
+    y_pad = to_categorical(label)  # 将标签转换为one-hot表示
+    return x_pad, y_pad
+
+
 def batch_iter(x, y, batch_size=64):
     """生成批次数据"""
     data_len = len(x)

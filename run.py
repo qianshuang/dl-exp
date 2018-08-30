@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 
-from MLP_model import *
+# from ml_model import *
+# from MLP_model import *
+from cnn_model import *
 from data.cnews_loader import *
 from sklearn import metrics
 
@@ -63,8 +65,8 @@ def train():
 
     # 载入训练集与验证集
     print("Loading training data...")
-    x_train, y_train = process_file(train_dir, word_to_id, cat_to_id, config.vocab_size)
-    x_val, y_val = process_file(val_dir, word_to_id, cat_to_id, config.vocab_size)
+    x_train, y_train = process_cnn_file(train_dir, word_to_id, cat_to_id, config.seq_length)
+    x_val, y_val = process_cnn_file(val_dir, word_to_id, cat_to_id, config.seq_length)
 
     # 创建session
     session = tf.Session()
@@ -75,7 +77,7 @@ def train():
     total_batch = 0              # 总批次
     best_acc_val = 0.0           # 最佳验证集准确率
     last_improved = 0            # 记录上一次提升批次
-    require_improvement = 100   # 如果超过1000轮未提升，提前结束训练
+    require_improvement = 200   # 如果超过1000轮未提升，提前结束训练
 
     flag = False
     for epoch in range(config.num_epochs):
@@ -124,7 +126,7 @@ def train():
 def test():
     print("Loading test data...")
     start_time = time.time()
-    x_test, y_test = process_file(test_dir, word_to_id, cat_to_id, config.vocab_size)
+    x_test, y_test = process_cnn_file(test_dir, word_to_id, cat_to_id, config.seq_length)
 
     session = tf.Session()
     session.run(tf.global_variables_initializer())
