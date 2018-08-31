@@ -49,7 +49,11 @@ class TextCNN(object):
             # conv = tf.layers.conv1d(embedding_inputs, self.config.num_filters, self.config.kernel_size, name='conv')
             filter_w = tf.Variable(tf.truncated_normal([self.config.kernel_size, self.config.embedding_dim, self.config.num_filters], stddev=0.1))
             conv = tf.nn.conv1d(embedding_inputs, filter_w, 1, padding='SAME')
-            print(conv)
+
+            # 高级封装
+            # tf.contrib.layers.conv2d()
+            # tf.contrib.layers.max_pool2d()
+
             # global max pooling layer
             gmp = tf.reduce_max(conv, reduction_indices=[1], name='gmp')
             print(gmp)

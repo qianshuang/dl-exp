@@ -48,7 +48,7 @@ def evaluate(sess, x_, y_):
         feed_dict = {
             model.input_x: x_batch,
             model.input_y: y_batch,
-            model.keep_prob: 1.0,
+            # model.keep_prob: 1.0,
         }
         loss, acc = sess.run([model.loss, model.acc], feed_dict=feed_dict)
         total_loss += loss * batch_len

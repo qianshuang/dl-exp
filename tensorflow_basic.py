@@ -194,18 +194,31 @@ print(tf.__version__)  # 输出版本号，测试安装
 #     file_writer.close()
 
 
-emb = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-emb_var = tf.Variable(emb, trainable=False)
-emb_tensor = tf.convert_to_tensor(emb)  # 转换为常量tensor
+# emb = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+# emb_var = tf.Variable(emb, trainable=False)
+# emb_tensor = tf.convert_to_tensor(emb)  # 转换为常量tensor，这种方式不需要执行init，因为是常量tensor
+#
+# emb_in_1 = tf.nn.embedding_lookup(emb, [0, 1])
+# emb_in_2 = tf.nn.embedding_lookup(emb_var, [0, 1])
+# emb_in_3 = tf.nn.embedding_lookup(emb_tensor, [0, 1])
+#
+# init = tf.global_variables_initializer()
+#
+# with tf.Session() as sess:
+#     print(sess.run(emb_in_1))  # [1 4]
+#     sess.run(init)
+#     print(sess.run(emb_in_2))  # [[1 2 3] [4 5 6]]
+#     print(sess.run(emb_in_3))  # [[1 2 3] [4 5 6]]
 
-emb_in_1 = tf.nn.embedding_lookup(emb, [0, 1])
-emb_in_2 = tf.nn.embedding_lookup(emb_var, [0, 1])
-emb_in_3 = tf.nn.embedding_lookup(emb_tensor, [0, 1])
 
-init = tf.global_variables_initializer()
-
+X1 = [[1, 2], [3, 4]]
+X2 = [[5, 6], [7, 8]]
+X = [X1, X2]
+X_tensor = tf.convert_to_tensor(X)
+X_tensor_1 = tf.reshape(X_tensor, [-1, 2])
+X_tensor_2 = tf.reshape(X_tensor_1, [-1, 2, 2])
 with tf.Session() as sess:
-    print(sess.run(emb_in_1))  # [1 4]
-    sess.run(init)
-    print(sess.run(emb_in_2))  # [[1 2 3] [4 5 6]]
-    print(sess.run(emb_in_3))  # [[1 2 3] [4 5 6]]
+    print(sess.run(X_tensor))
+    # sess.run(init)
+    print(sess.run(X_tensor_1))
+    print(sess.run(X_tensor_2))
