@@ -45,17 +45,29 @@ class TextCNN(object):
             embedding_inputs = tf.nn.embedding_lookup(embedding, self.input_x)
 
         with tf.name_scope("cnn"):
-            # CNN layer:输入为1000*64，64为input_channels
-            # conv = tf.layers.conv1d(embedding_inputs, self.config.num_filters, self.config.kernel_size, name='conv')
-            filter_w = tf.Variable(tf.truncated_normal([self.config.kernel_size, self.config.embedding_dim, self.config.num_filters], stddev=0.1))
-            conv = tf.nn.conv1d(embedding_inputs, filter_w, 1, padding='SAME')
+            # CNN layer 1: 输入为1000*64，64为input_channels
+            filter_w_1 = tf.Variable(tf.truncated_normal([self.config.kernel_size, self.config.embedding_dim, self.config.num_filters], stddev=0.1))
+            conv_1 = tf.nn.conv1d(embedding_inputs, filter_w_1, 1, padding='SAME')  # [batch, 1000, 128]
+            active_1 = tf.nn.relu(conv_1)  # 激活函数
+            expand_1 = tf.expand_dims(active_1, 2)  # [batch, 1000, 1, 128]
+            pool_1 = tf.nn.max_pool(expand_1, ksize=[1, 2, 1, 1], strides=[1, 2, 1, 1], padding="VALID") # (batch, 500, 1, 128)
+
+            # CNN layer 2
+            input_2 = tf.reshape(pool_1, (-1, 500, 128))
+            filter_w_2 = tf.Variable(tf.truncated_normal([self.config.kernel_size, 128, 128], stddev=0.1))
+            conv_2 = tf.nn.conv1d(input_2, filter_w_2, 1, padding='SAME')  # [batch, 500, 128]
 
             # 高级封装
             # tf.contrib.layers.conv2d()
+            # tf.layers.conv1d()
             # tf.contrib.layers.max_pool2d()
 
             # global max pooling layer
-            gmp = tf.reduce_max(conv, reduction_indices=[1], name='gmp')
+            gmp = tf.reduce_max(conv_2, reduction_indices=[1], name='gmp')  # [batch, 128]
+            # 或者下面的写法
+            # expand_2 = tf.expand_dims(gmp, 2)  # [batch, 500, 1, 128]
+            # pool_1 = tf.nn.max_pool(expand_2, ksize=[1, 500, 1, 1], strides=[1, 500, 1, 1], padding="VALID") # (batch, 1, 1, 128)
+            # gmp = tf.squeeze(gmp)  # 剔除维度为1的维
             print(gmp)
 
         with tf.name_scope("score"):

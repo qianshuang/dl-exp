@@ -211,14 +211,23 @@ print(tf.__version__)  # 输出版本号，测试安装
 #     print(sess.run(emb_in_3))  # [[1 2 3] [4 5 6]]
 
 
-X1 = [[1, 2], [3, 4]]
-X2 = [[5, 6], [7, 8]]
-X = [X1, X2]
+# X1 = [[1, 2], [3, 4]]
+# X2 = [[5, 6], [7, 8]]
+# X = [X1, X2]
+# X_tensor = tf.convert_to_tensor(X)
+# X_tensor_1 = tf.reshape(X_tensor, [-1, 2])
+# X_tensor_2 = tf.reshape(X_tensor_1, [-1, 2, 2])
+# with tf.Session() as sess:
+#     print(sess.run(X_tensor))
+#     # sess.run(init)
+#     print(sess.run(X_tensor_1))
+#     print(sess.run(X_tensor_2))
+
+
+X = [[1, 2], [3, 4], [5, 6]]
 X_tensor = tf.convert_to_tensor(X)
-X_tensor_1 = tf.reshape(X_tensor, [-1, 2])
-X_tensor_2 = tf.reshape(X_tensor_1, [-1, 2, 2])
+X_tensor_1 = tf.reshape(X_tensor, [2, 3])
 with tf.Session() as sess:
     print(sess.run(X_tensor))
     # sess.run(init)
-    print(sess.run(X_tensor_1))
-    print(sess.run(X_tensor_2))
+    print(sess.run(X_tensor_1))  # [[1 2 3], [4 5 6]]
