@@ -138,7 +138,7 @@ print(tf.__version__)  # 输出版本号，测试安装
 
 # e2 = tf.get_variable('e2', [None, 64])  # 报错：ValueError: Shape of a new variable (e2) must be fully defined, but instead was (?, 64).
 
-
+#
 # A = tf.placeholder(tf.int32, shape=(None, None))  # 第一个None表示此值未知，根据传入的数据推断出
 # print(A.shape)  # (?, 3)
 # A_shape = tf.shape(A)[0]  # 等价于A.get_shape()[0]
@@ -146,7 +146,7 @@ print(tf.__version__)  # 输出版本号，测试安装
 # B = A + A_shape
 #
 # with tf.Session() as sess:
-#     B_val_1 = B.eval(feed_dict={A: [[1, 2, 3]]})
+#     B_val_1 = B.eval(feed_dict={A: [[1, 2, 3], [5, 6]]})  # 报错：两个实例必须为相同的shape
 #     B_val_1 = sess.run(B, feed_dict={A: [[1, 2, 3]]})  # 效果同上
 #     B_val_2 = B.eval(feed_dict={A: [[4, 5, 6], [7, 8, 9]]})
 # print(B_val_1)  # [[2 3 4]]
@@ -224,10 +224,10 @@ print(tf.__version__)  # 输出版本号，测试安装
 #     print(sess.run(X_tensor_2))
 
 
-X = [[1, 2], [3, 4], [5, 6]]
-X_tensor = tf.convert_to_tensor(X)
-X_tensor_1 = tf.reshape(X_tensor, [2, 3])
-with tf.Session() as sess:
-    print(sess.run(X_tensor))
-    # sess.run(init)
-    print(sess.run(X_tensor_1))  # [[1 2 3], [4 5 6]]
+# X = [[1, 2], [3, 4], [5, 6]]
+# X_tensor = tf.convert_to_tensor(X)
+# X_tensor_1 = tf.reshape(X_tensor, [2, 3])
+# with tf.Session() as sess:
+#     print(sess.run(X_tensor))
+#     # sess.run(init)
+#     print(sess.run(X_tensor_1))  # [[1 2 3], [4 5 6]]

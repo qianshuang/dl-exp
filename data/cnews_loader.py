@@ -229,7 +229,26 @@ def process_cnn_file(filename, word_to_id, cat_to_id, seq_length):
     return x_pad, y_pad
 
 
-def batch_iter(x, y, batch_size=64):
+def process_rnn_file(filename, word_to_id, cat_to_id, seq_length):
+    """将文件转换为id表示"""
+    contents, labels = read_file(filename)
+
+    data = []
+    label = []
+    length = []
+    for i in range(len(contents)):
+        words = list(contents[i].strip())
+        words = remove_stopwords(words)
+        data.append([word_to_id[x] for x in words if x in word_to_id])
+        label.append(cat_to_id[labels[i]])
+        length.append(len(words))
+
+    x_pad = pad_sequences(data, maxlen=seq_length, padding='post', truncating='post')
+    y_pad = to_categorical(label)  # 将标签转换为one-hot表示
+    return x_pad, y_pad, np.array(length)
+
+
+def batch_iter(x, y, len_, batch_size=64):
     """生成批次数据"""
     data_len = len(x)
     num_batch = int((data_len - 1) / batch_size) + 1
@@ -237,14 +256,16 @@ def batch_iter(x, y, batch_size=64):
     indices = np.random.permutation(np.arange(data_len))
     x_shuffle = []
     y_shuffle = []
+    len_shuffle = []
     for i in range(len(indices)):
         x_shuffle.append(x[indices[i]])
         y_shuffle.append(y[indices[i]])
+        len_shuffle.append(len_[indices[i]])
 
     for i in range(num_batch):
         start_id = i * batch_size
         end_id = min((i + 1) * batch_size, data_len)
-        yield x_shuffle[start_id:end_id], y_shuffle[start_id:end_id]
+        yield x_shuffle[start_id:end_id], y_shuffle[start_id:end_id], len_shuffle[start_id:end_id]
 
 
 def build_fxy(word_to_id, cat_to_id):

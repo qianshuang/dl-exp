@@ -2,7 +2,8 @@
 
 # from ml_model import *
 # from MLP_model import *
-from cnn_model import *
+# from cnn_model import *
+from rnn_model import *
 from data.cnews_loader import *
 from sklearn import metrics
 
@@ -36,18 +37,19 @@ def get_time_dif(start_time):
 #     return feed_dict
 
 
-def evaluate(sess, x_, y_):
+def evaluate(sess, x_, y_, len_):
     """评估在某一数据上的准确率和损失"""
     data_len = len(x_)
-    batch_eval = batch_iter(x_, y_, 128)
+    batch_eval = batch_iter(x_, y_, len_, 128)
     total_loss = 0.0
     total_acc = 0.0
-    for x_batch, y_batch in batch_eval:
+    for x_batch, y_batch, len_batch in batch_eval:
         batch_len = len(x_batch)
         # feed_dict = feed_data(x_batch, y_batch, 1.0)
         feed_dict = {
             model.input_x: x_batch,
             model.input_y: y_batch,
+            model.seq_length: len_batch
             # model.keep_prob: 1.0,
         }
         loss, acc = sess.run([model.loss, model.acc], feed_dict=feed_dict)
@@ -65,8 +67,10 @@ def train():
 
     # 载入训练集与验证集
     print("Loading training data...")
-    x_train, y_train = process_cnn_file(train_dir, word_to_id, cat_to_id, config.seq_length)
-    x_val, y_val = process_cnn_file(val_dir, word_to_id, cat_to_id, config.seq_length)
+    # x_train, y_train = process_cnn_file(train_dir, word_to_id, cat_to_id, config.seq_length)
+    # x_val, y_val = process_cnn_file(val_dir, word_to_id, cat_to_id, config.seq_length)
+    x_train, y_train, len_train = process_rnn_file(train_dir, word_to_id, cat_to_id, config.seq_length)
+    x_val, y_val, len_val = process_rnn_file(val_dir, word_to_id, cat_to_id, config.seq_length)
 
     # 创建session
     session = tf.Session()
@@ -77,25 +81,26 @@ def train():
     total_batch = 0              # 总批次
     best_acc_val = 0.0           # 最佳验证集准确率
     last_improved = 0            # 记录上一次提升批次
-    require_improvement = 200   # 如果超过1000轮未提升，提前结束训练
+    require_improvement = 100   # 如果超过1000轮未提升，提前结束训练
 
     flag = False
     for epoch in range(config.num_epochs):
         print('Epoch:', epoch + 1)
-        batch_train = batch_iter(x_train, y_train, 128)
-        for x_batch, y_batch in batch_train:
+        batch_train = batch_iter(x_train, y_train, len_train, 128)
+        for x_batch, y_batch, len_batch in batch_train:
             # feed_dict = feed_data(x_batch, y_batch, config.dropout_keep_prob)
             feed_dict = {
                 model.input_x: x_batch,
                 model.input_y: y_batch,
-                model.keep_prob: config.dropout_keep_prob
+                model.keep_prob: config.dropout_keep_prob,
+                model.seq_length: len_batch
             }
 
             if total_batch % config.print_per_batch == 0:
                 # 每多少轮次输出在训练集和验证集上的性能
                 feed_dict[model.keep_prob] = 1.0
                 loss_train, acc_train = session.run([model.loss, model.acc], feed_dict=feed_dict)
-                loss_val, acc_val = evaluate(session, x_val, y_val)
+                loss_val, acc_val = evaluate(session, x_val, y_val, len_val)
 
                 if acc_val > best_acc_val:
                     # 保存最好结果
@@ -126,7 +131,8 @@ def train():
 def test():
     print("Loading test data...")
     start_time = time.time()
-    x_test, y_test = process_cnn_file(test_dir, word_to_id, cat_to_id, config.seq_length)
+    # x_test, y_test = process_cnn_file(test_dir, word_to_id, cat_to_id, config.seq_length)
+    x_test, y_test, len_test = process_rnn_file(test_dir, word_to_id, cat_to_id, config.seq_length)
 
     session = tf.Session()
     session.run(tf.global_variables_initializer())
@@ -134,7 +140,7 @@ def test():
     saver.restore(sess=session, save_path=save_path)  # 读取保存的模型
 
     print('Testing...')
-    loss_test, acc_test = evaluate(session, x_test, y_test)
+    loss_test, acc_test = evaluate(session, x_test, y_test, len_test)
     msg = 'Test Loss: {0:>6.2}, Test Acc: {1:>7.2%}'
     print(msg.format(loss_test, acc_test))
 
@@ -149,6 +155,7 @@ def test():
         end_id = min((i + 1) * batch_size, data_len)
         feed_dict = {
             model.input_x: x_test[start_id:end_id],
+            model.seq_length: len_test[start_id:end_id]
         }
         y_pred_cls[start_id:end_id] = session.run(model.y_pred_cls, feed_dict=feed_dict)
 
