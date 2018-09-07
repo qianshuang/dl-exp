@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b5cdad1-aa8c-448b-ba64-e7ae022cd2da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi_lang_model.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/cnews/multi_lang.test.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/cnews/multi_lang.train.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/cnews/multi_lang.val.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cnews/cnews.vocab.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cnews/eyu.corpus.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/cnews/xiyu.corpus.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cnews_loader.py" afterPath="$PROJECT_DIR$/data/cnews_loader.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multi_lang_model.py" afterPath="$PROJECT_DIR$/multi_lang_model.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run.py" afterPath="$PROJECT_DIR$/run.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,13 +23,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-244">
-              <caret line="56" column="36" lean-forward="true" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
+            <state relative-caret-position="162">
+              <caret line="93" column="45" lean-forward="true" selection-start-line="93" selection-start-column="45" selection-end-line="93" selection-end-column="45" />
               <folding>
-                <element signature="e#102#125#0" expanded="true" />
+                <element signature="e#128#158#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="multi_lang_model.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/multi_lang_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+              <folding>
+                <element signature="e#25#48#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -28,18 +50,20 @@
       <file leaf-file-name="cnews_loader.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/cnews_loader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="266" column="52" lean-forward="false" selection-start-line="266" selection-start-column="52" selection-end-line="266" selection-end-column="52" />
-              <folding />
+            <state relative-caret-position="112">
+              <caret line="308" column="25" lean-forward="false" selection-start-line="308" selection-start-column="25" selection-end-line="308" selection-end-column="25" />
+              <folding>
+                <element signature="e#25#56#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rnn_model.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rnn_model.py">
+      <file leaf-file-name="multi_lang.test.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/cnews/multi_lang.test.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="299">
+              <caret line="1199" column="56" lean-forward="true" selection-start-line="1199" selection-start-column="56" selection-end-line="1199" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -70,6 +94,10 @@
       <find>vocab_size</find>
       <find>process_cnn_file</find>
       <find>len</find>
+      <find>num_tasks</find>
+      <find>route_ae_payment</find>
+      <find>input_Q</find>
+      <find>input_label</find>
       <find>evaluate</find>
     </findStrings>
   </component>
@@ -93,16 +121,17 @@
         <option value="$PROJECT_DIR$/MLP_model.py" />
         <option value="$PROJECT_DIR$/cnn_model.py" />
         <option value="$PROJECT_DIR$/tensorflow_basic.py" />
-        <option value="$PROJECT_DIR$/run.py" />
-        <option value="$PROJECT_DIR$/data/cnews_loader.py" />
         <option value="$PROJECT_DIR$/rnn_model.py" />
+        <option value="$PROJECT_DIR$/data/cnews_loader.py" />
+        <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/multi_lang_model.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="705" />
+    <option name="height" value="737" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -129,6 +158,17 @@
               <item name="dl-exp" type="b2602c69:ProjectViewProjectNode" />
               <item name="dl-exp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="dl-exp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dl-exp" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dl-exp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dl-exp" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="cnews" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -142,8 +182,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/data/cnews" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
@@ -266,12 +306,12 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="705" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="737" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23182553" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23182553" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986626" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28231797" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42199108" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -312,23 +352,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/cnews/cnews.vocab.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/cnews/cnews.corpus.txt" />
-    <entry file="file://$PROJECT_DIR$/data/stop_words.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/cnews_loader_lr.py" />
-    <entry file="file://$PROJECT_DIR$/run_sr.py" />
     <entry file="file://$PROJECT_DIR$/sr_model.py" />
     <entry file="file://$PROJECT_DIR$/run_cnn.py" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/site-packages/tensorflow/__init__.py">
@@ -343,6 +366,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1047">
           <caret line="796" column="44" lean-forward="false" selection-start-line="796" selection-start-column="37" selection-end-line="796" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -565,14 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/cnews_loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="266" column="52" lean-forward="false" selection-start-line="266" selection-start-column="52" selection-end-line="266" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ml_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -581,21 +597,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-244">
-          <caret line="56" column="36" lean-forward="true" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
-          <folding>
-            <element signature="e#102#125#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rnn_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/cnews/multi_lang.corpus.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/cnews/multi_lang.train.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/cnews/multi_lang.test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="1199" column="56" lean-forward="true" selection-start-line="1199" selection-start-column="56" selection-end-line="1199" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/cnews/multi_lang.vocab.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-192061">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/cnews_loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="308" column="25" lean-forward="false" selection-start-line="308" selection-start-column="25" selection-end-line="308" selection-end-column="25" />
+          <folding>
+            <element signature="e#25#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_lang_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding>
+            <element signature="e#25#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="93" column="45" lean-forward="true" selection-start-line="93" selection-start-column="45" selection-end-line="93" selection-end-column="45" />
+          <folding>
+            <element signature="e#128#158#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

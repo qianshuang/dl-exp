@@ -3,7 +3,8 @@
 # from ml_model import *
 # from MLP_model import *
 # from cnn_model import *
-from rnn_model import *
+# from rnn_model import *
+from multi_lang_model import *
 from data.cnews_loader import *
 from sklearn import metrics
 
@@ -12,10 +13,15 @@ from datetime import timedelta
 
 
 base_dir = 'data/cnews'
-train_dir = os.path.join(base_dir, 'cnews.train.txt')
-test_dir = os.path.join(base_dir, 'cnews.test.txt')
-val_dir = os.path.join(base_dir, 'cnews.val.txt')
-vocab_dir = os.path.join(base_dir, 'cnews.vocab.txt')
+# train_dir = os.path.join(base_dir, 'cnews.train.txt')
+# test_dir = os.path.join(base_dir, 'cnews.test.txt')
+# val_dir = os.path.join(base_dir, 'cnews.val.txt')
+# vocab_dir = os.path.join(base_dir, 'cnews.vocab.txt')
+train_dir = os.path.join(base_dir, 'multi_lang.train.txt')
+test_dir = os.path.join(base_dir, 'multi_lang.test.txt')
+val_dir = os.path.join(base_dir, 'multi_lang.val.txt')
+vocab_dir = os.path.join(base_dir, 'multi_lang.vocab.txt')
+
 
 save_dir = 'checkpoints/textcnn'
 save_path = os.path.join(save_dir, 'best_validation')   # 最佳验证结果保存路径
@@ -28,15 +34,6 @@ def get_time_dif(start_time):
     return timedelta(seconds=int(round(time_dif)))
 
 
-# def feed_data(x_batch, y_batch, keep_prob):
-#     feed_dict = {
-#         model.input_x: x_batch,
-#         model.input_y: y_batch,
-#         model.keep_prob: keep_prob,
-#     }
-#     return feed_dict
-
-
 def evaluate(sess, x_, y_, len_):
     """评估在某一数据上的准确率和损失"""
     data_len = len(x_)
@@ -45,12 +42,11 @@ def evaluate(sess, x_, y_, len_):
     total_acc = 0.0
     for x_batch, y_batch, len_batch in batch_eval:
         batch_len = len(x_batch)
-        # feed_dict = feed_data(x_batch, y_batch, 1.0)
         feed_dict = {
             model.input_x: x_batch,
             model.input_y: y_batch,
-            model.seq_length: len_batch
-            # model.keep_prob: 1.0,
+            # model.seq_length: len_batch
+            model.input_task: len_batch
         }
         loss, acc = sess.run([model.loss, model.acc], feed_dict=feed_dict)
         total_loss += loss * batch_len
@@ -69,8 +65,10 @@ def train():
     print("Loading training data...")
     # x_train, y_train = process_cnn_file(train_dir, word_to_id, cat_to_id, config.seq_length)
     # x_val, y_val = process_cnn_file(val_dir, word_to_id, cat_to_id, config.seq_length)
-    x_train, y_train, len_train = process_rnn_file(train_dir, word_to_id, cat_to_id, config.seq_length)
-    x_val, y_val, len_val = process_rnn_file(val_dir, word_to_id, cat_to_id, config.seq_length)
+    # x_train, y_train, len_train = process_rnn_file(train_dir, word_to_id, cat_to_id, config.seq_length)
+    # x_val, y_val, len_val = process_rnn_file(val_dir, word_to_id, cat_to_id, config.seq_length)
+    x_train, y_train, len_train = process_multi_lang_file(train_dir, word_to_id, cat_to_id, config.seq_length)
+    x_val, y_val, len_val = process_multi_lang_file(val_dir, word_to_id, cat_to_id, config.seq_length)
 
     # 创建session
     session = tf.Session()
@@ -93,7 +91,8 @@ def train():
                 model.input_x: x_batch,
                 model.input_y: y_batch,
                 model.keep_prob: config.dropout_keep_prob,
-                model.seq_length: len_batch
+                # model.seq_length: len_batch
+                model.input_task: len_batch
             }
 
             if total_batch % config.print_per_batch == 0:
@@ -132,7 +131,8 @@ def test():
     print("Loading test data...")
     start_time = time.time()
     # x_test, y_test = process_cnn_file(test_dir, word_to_id, cat_to_id, config.seq_length)
-    x_test, y_test, len_test = process_rnn_file(test_dir, word_to_id, cat_to_id, config.seq_length)
+    # x_test, y_test, len_test = process_rnn_file(test_dir, word_to_id, cat_to_id, config.seq_length)
+    x_test, y_test, len_test = process_multi_lang_file(test_dir, word_to_id, cat_to_id, config.seq_length)
 
     session = tf.Session()
     session.run(tf.global_variables_initializer())
@@ -155,7 +155,8 @@ def test():
         end_id = min((i + 1) * batch_size, data_len)
         feed_dict = {
             model.input_x: x_test[start_id:end_id],
-            model.seq_length: len_test[start_id:end_id]
+            # model.seq_length: len_test[start_id:end_id]
+            model.input_task: len_test[start_id:end_id]
         }
         y_pred_cls[start_id:end_id] = session.run(model.y_pred_cls, feed_dict=feed_dict)
 
@@ -177,10 +178,10 @@ if __name__ == '__main__':
     config = TCNNConfig()
     if not os.path.exists(vocab_dir):
         build_vocab(train_dir, vocab_dir)
-    categories, cat_to_id = read_category()
+    categories, cat_to_id = read_category(val_dir)
     words, word_to_id = read_vocab(vocab_dir)
     # 构建最大熵模型的特征函数矩阵
-    # config.F = build_fxy(word_to_id, cat_to_id)
+    # config.F = build_fxy(train_dir, word_to_id, cat_to_id)
     config.vocab_size = len(words)
     config.num_classes = len(categories)
     model = TextCNN(config)

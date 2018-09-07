@@ -7,10 +7,10 @@ import re
 
 base_dir = 'data'
 stopwords_dir = os.path.join(base_dir, 'stop_words.txt')
-train_dir = os.path.join(base_dir + '/cnews', 'cnews.train.txt')
-test_dir = os.path.join(base_dir + '/cnews', 'cnews.test.txt')
-val_dir = os.path.join(base_dir + '/cnews', 'cnews.val.txt')
-ori_dir = os.path.join(base_dir + '/cnews', 'cnews.corpus.txt')
+# train_dir = os.path.join(base_dir + '/cnews', 'cnews.train.txt')
+# test_dir = os.path.join(base_dir + '/cnews', 'cnews.test.txt')
+# val_dir = os.path.join(base_dir + '/cnews', 'cnews.val.txt')
+# ori_dir = os.path.join(base_dir + '/cnews', 'cnews.corpus.txt')
 
 
 def open_file(filename, mode='r'):
@@ -53,6 +53,21 @@ def read_file(filename):
     return contents, labels
 
 
+def read_multi_lang_file(filename):
+    """读取文件数据"""
+    contents, labels, langs = [], [], []
+    with open_file(filename) as f:
+        for line in f:
+            try:
+                label, content, lang = line.strip().split('\t')
+                contents.append(content)
+                labels.append(label)
+                langs.append(lang)
+            except:
+                pass
+    return contents, labels, langs
+
+
 def number_norm(x):
     if re.compile(r'^\d*$').match(x):
         if len(x) >= 16:
@@ -70,10 +85,12 @@ def build_vocab(total_dir, vocab_dir):
     words = []
     with open_file(total_dir) as f:
         for line in f:
-            sents = list(line.strip().split('\t')[1])
+            # sents = list(line.strip().split('\t')[1])
+            sents = re.split('\s+', line.strip().split('\t')[1])
             for sent in sents:
                 # words.extend(number_norm(sent))
-                words.extend(sent)
+                # words.extend(sent)
+                words.append(sent)
     words = remove_stopwords(words)
     # counter = Counter(words)
     # count_pairs = counter.most_common(5000)
@@ -102,7 +119,7 @@ def read_vocab(vocab_dir):
     return words, word_to_id
 
 
-def read_category():
+def read_category(val_dir):
     """读取分类目录，固定"""
     # categories = ['体育', '财经', '房产', '家居',
     #     '教育', '科技', '时尚', '时政', '游戏', '娱乐']
@@ -248,6 +265,27 @@ def process_rnn_file(filename, word_to_id, cat_to_id, seq_length):
     return x_pad, y_pad, np.array(length)
 
 
+def process_multi_lang_file(filename, word_to_id, cat_to_id, seq_length):
+    """将文件转换为id表示"""
+    contents, labels, langs = read_multi_lang_file(filename)
+
+    data = []
+    label = []
+    lang = []
+    for i in range(len(contents)):
+        # words = list(contents[i].strip())
+        words = re.split('\s+', contents[i].strip())
+        words = remove_stopwords(words)
+        data.append([word_to_id[x] for x in words if x in word_to_id])
+        label.append(cat_to_id[labels[i]])
+        lang.append(0 if langs[i] == 'eyu' else 1)
+
+    x_pad = pad_sequences(data, maxlen=seq_length, padding='post', truncating='post')
+    y_pad = to_categorical(label)  # 将标签转换为one-hot表示
+    lang_pad = to_categorical(lang)
+    return x_pad, y_pad, lang_pad
+
+
 def batch_iter(x, y, len_, batch_size=64):
     """生成批次数据"""
     data_len = len(x)
@@ -268,7 +306,7 @@ def batch_iter(x, y, len_, batch_size=64):
         yield x_shuffle[start_id:end_id], y_shuffle[start_id:end_id], len_shuffle[start_id:end_id]
 
 
-def build_fxy(word_to_id, cat_to_id):
+def build_fxy(train_dir, word_to_id, cat_to_id):
     F = np.zeros((len(word_to_id), len(cat_to_id)))
 
     contents, labels = read_file(train_dir)

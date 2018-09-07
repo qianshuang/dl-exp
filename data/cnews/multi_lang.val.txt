@@ -1,0 +1,1200 @@
+route_ae_manageorder	¿Puedo ver las valoraciones de mis pedidos?	xiyu
+route_ae_nr	Добрый день. У меня по заказу Номер заказа: 86025939464351 Логин kollesnikoksan@gmail.com не отслеживается номер даже на вашем сайте, срок защиты истекает завтра. Этот заказ был оформлен еще 27 августа. Я пишу продавцу, прошу дать правильный номер, продлит	eyu
+route_ae_nr	Пришло сообщение транспортировкам заказа отменена что делать	eyu
+route_ae_searchcontact	Продавец меня игнорирует	eyu
+route_ae_nr	моя посылка 33 дня находится на одном месте и не меняет статус	eyu
+route_ae_manageorder	¿Cuál es el límite de tiempo del vendedor para enviar mi pedido?	xiyu
+route_ae_searchcontact	DONDE ESTA EL TRADE MANAGER EN MI PAGINA	xiyu
+route_ae_manageorder	recibi mi pedido	xiyu
+route_ae_manageorder	Solo quedan seis días de protección	xiyu
+route_ae_orderclose	МОЙ вопрос : что означает статус заказа " ЗАКРЫТ "??????	eyu
+route_ae_searchcontact	Как узнать характеристики товара?	eyu
+route_ae_nr	No recibí el producto y la protección de la compra terminó. Ya no puedo solicitar el reembolso, es decir perderé mi dinero.	xiyu
+route_ae_manageorder	Как долго будет длится обработка товара?	eyu
+route_ae_payment	Добрый день. Как поменять парооь алипей?	eyu
+route_ae_searchcontact	Me he comunicado tres veces con esta y me decian que se comunicacrian en tres dias habiles. Aun no tengo respuesta	xiyu
+route_ae_refund	PERO ME DICE QUE NO ME HARÁ REEMBOLSO	xiyu
+route_ae_refund	No han devuelto mi dinero	xiyu
+route_ae_nr	Pedido llegó a otra dirección no a la mía	xiyu
+route_ae_searchcontact	No he encontrado este producto en su página, ¿pueden ayudarme a encontrarlo?	xiyu
+route_ae_refund	Porque en una disputa solo me devuelven parte del dinero del producto y no el total?	xiyu
+route_ae_orderclose	El vendedor me dijo que cancelara el pedido para devolverme el dinero. ¿Qué puedo hacer?	xiyu
+route_ae_searchcontact	Вы предоставляете товары в Индию	eyu
+route_ae_payment	y me pidieron devolverme el dinero por paypal y no tengo, esto es legal	xiyu
+route_ae_searchcontact	El envío es caro. ¿Combinan envíos con múltiples pedidos?	xiyu
+route_ae_refund	Продавец принял условия спора но не отправил никакого возмещения	eyu
+route_ae_orderclose	un vendedor me pidio cancelar mi pedido	xiyu
+route_ae_nr	Товар вернулся обратно в Китай	eyu
+route_ae_manageorder	El estado del pedido no ha cambiado.	xiyu
+route_ae_manageorder	¿Puedo dejar valoraciones para los proveedores?	xiyu
+route_ae_orderclose	Здравствуйте,я отменил заказ	eyu
+route_ae_nr	Мой товар уничтожен таможенной службой что можно сделать	eyu
+route_ae_payment	я не могу оплатить MasterCard свои заказы	eyu
+route_ae_nr	El paquete está en manos de la aduana, ¿cómo puedo hacer el trámite?	xiyu
+route_ae_searchcontact	да какое возмещение... я про отзыв!	eyu
+route_ae_manageorder	Я ввел неправильный адрес доставки Что делать	eyu
+route_ae_payment	Почему веб мани не могу заплатить?	eyu
+route_ae_nr	Отслеживаныне плохо работает	eyu
+route_ae_payment	Пишет, что карта не поддерживается	eyu
+route_ae_searchcontact	Я хочу отменить заказ. Продавец не отвечает.	eyu
+route_ae_payment	Как оплатить через баланс МТС	eyu
+route_ae_manageorder	Я удалила заказ	eyu
+route_ae_orderclose	Я его Нечайно отменила,деньги не возвращены	eyu
+route_ae_refund	deeseo el remmbolso de mi dinero	xiyu
+route_ae_payment	Так и не получилось оплатить	eyu
+route_ae_payment	Есть ли лимит платежа на сайте	eyu
+route_ae_searchcontact	Продавец перестал отвечать мне после того как я отправил товар обратно	eyu
+route_ae_payment	А как мне связаться с банком эмитента	eyu
+route_ae_orderclose	что зделать что бы продовец одобрил отказ от товара	eyu
+route_ae_payment	¿Por qué mi pago ha sido doble?	xiyu
+route_ae_orderclose	Deseo cancelar un pedido, pero no puedo.	xiyu
+route_ae_manageorder	Realicé una compra hace un momento pero por equivocación sale destino Filipinas lo quiero para Perú	xiyu
+route_ae_refund	не получила заказ и деньги не возвращают что делать?	eyu
+route_ae_manageorder	necesito saber como está mi pedido	xiyu
+route_ae_payment	Я уже оплачивала этот заказ	eyu
+route_ae_searchcontact	Si no contesta nadie	xiyu
+route_ae_payment	Не понимаю откуда взять код.	eyu
+route_ae_orderclose	Por que mi pedido aparece finalizado	xiyu
+route_ae_payment	¿Qué significa "espere a que el vendedor confirme la cuenta"?	xiyu
+route_ae_searchcontact	El vendedor no responde a mis mensajes y es que es un pedido por entrega local y es que lo necesito urgentemebte porque estoy sin telefono	xiyu
+route_ae_orderclose	quisiera saber el estado de un pedido que figura cancelado pero del cual realice el pago por paypal	xiyu
+route_ae_payment	У меня есть товары от разных поставщиков но я хочу оплатить их все вместе	eyu
+route_ae_refund	Y me negaron el reembolso	xiyu
+route_ae_nr	¿Por qué no hay seguimiento de mi pedido?	xiyu
+route_ae_refund	el el cual mi duda es el rembolso se llievara a cabo y cuanto tarda	xiyu
+route_ae_manageorder	Как проверить мой заказ	eyu
+route_ae_orderclose	Pedidos cancelados. Por qué me los han cancelado?	xiyu
+route_ae_payment	mi pago fue en oxxo, cuanto tarda en aparecer?	xiyu
+route_ae_manageorder	¿Cómo puedo cambiar mi nombre de contacto?	xiyu
+route_ae_manageorder	Можно ли как-то восстановить заказ?	eyu
+route_ae_nr	Que puedo hacer com lo que pedi y dise que ya lo entregaron pero no lo he recibido todavia	xiyu
+route_ae_refund	Получу ли я уведомление о возврате средств?	eyu
+route_ae_payment	tengo una duda con una transsaccion me sale pagado dos veces en mi tarjeta credito que puedo hacer	xiyu
+route_ae_refund	Почему деньги не перевелись	eyu
+route_ae_searchcontact	продавец на связь невыходит	eyu
+route_ae_manageorder	El vendedor me pide confirmar orden para devolver mi dinero	xiyu
+route_ae_searchcontact	Что такое популярные товары	eyu
+route_ae_payment	no puedo tarjeta de debito?	xiyu
+route_ae_nr	Не отслеживается регистрируемая посылка	eyu
+route_ae_orderclose	en el mismo tiempo tengo 26 dias con pedidos cerrados	xiyu
+route_ae_nr	Что означает продавец отменил доставку	eyu
+route_ae_payment	ya hice todo eso y me comunique con los vendedores lo que pasó fue que el pago no se realizó sin embargo se hizo la retención del dinero	xiyu
+route_ae_payment	Как "отвязать" карту?	eyu
+route_ae_nr	mi pedido no llega	xiyu
+route_ae_payment	Деньги на карте естт	eyu
+route_ae_nr	статус заказа частичная отправка	eyu
+route_ae_payment	мне нужно сделать доплату 0.5$-как это сделать?	eyu
+route_ae_orderclose	Я хочу отменить заказ нетот цвет	eyu
+route_ae_orderclose	que pasa si suspendo la compra a pague	xiyu
+route_ae_searchcontact	¿Cómo le envío mensajes al vendedor?	xiyu
+route_ae_payment	queria saber si tienen la informacion de la tarjeta de credito	xiyu
+route_ae_refund	quiero el reembolso	xiyu
+route_ae_searchcontact	как отправить сообщение продавцу?	eyu
+route_ae_nr	mi pedido no ha llegado y el tiempo de protección al comprador está a punto de terminar	xiyu
+route_ae_nr	Digo q hay 10 productos que no me han llegado	xiyu
+route_ae_orderclose	Que le digo al vendedor para cancelar el pedido?	xiyu
+route_ae_refund	При отмене задублированного заказа как вернуть деньги?	eyu
+route_ae_manageorder	Extender tiempo de protección.	xiyu
+route_ae_payment	Mi tarjeta Visa de débito no se acepta.	xiyu
+route_ae_searchcontact	¿Cómo puedo ver un mensaje?	xiyu
+route_ae_searchcontact	¿Cómo limpio el historial de búsquedas?	xiyu
+route_ae_orderclose	Я его оплатил,его закрыли	eyu
+route_ae_refund	No he recibido el reembolso después de que finalizase la disputa.	xiyu
+route_ae_searchcontact	Почему я не могу установить TradeManager на свой мобильный телефон	eyu
+route_ae_orderclose	se cancelouna compra y el vendedor no reembolso el dinero completo	xiyu
+route_ae_payment	ya he hablado con mi banco y no saben nada de ese dinero	xiyu
+route_ae_orderclose	87828760288737 опять снялись с карты деньги, но статус закрыт	eyu
+route_ae_nr	Мое заказ 503892727827366 очень долго идет до меня	eyu
+route_ae_orderclose	En el seguimiento sale que el producto fue cancelado	xiyu
+route_ae_nr	У меня проблемы с доставкой	eyu
+route_ae_refund	no me han ingresado el dinero\	xiyu
+route_ae_searchcontact	Y el vendedor no se hace responsable	xiyu
+route_ae_payment	¿Por qué ha fallado mi pago por Western Union?	xiyu
+route_ae_manageorder	Я хотел бы знать статус заказа	eyu
+route_ae_nr	Porfavor me pueden decir cuando llega mi producto	xiyu
+route_ae_nr	Товара я так и не дождалась, продавец со мной общаться не хочет.	eyu
+route_ae_refund	Когда будет совершен возврат средств по заказу 502334697455467	eyu
+route_ae_manageorder	Тоесть на почте есть подтверждение товара и номера заказа	eyu
+route_ae_searchcontact	Можете ли вы выслать мне каталог по почте	eyu
+route_ae_refund	¿Cuándo será reembolsado mi dinero?	xiyu
+route_ae_searchcontact	¿Cómo busco un producto?	xiyu
+route_ae_payment	¿Puedo pagar offline por el pedido?	xiyu
+route_ae_searchcontact	Tengo una duda referente a evitar aduana	xiyu
+route_ae_payment	Mi duda es con una tarjeta ingresada	xiyu
+route_ae_manageorder	pague con tarjeta y no me salio el numero de pedido	xiyu
+route_ae_manageorder	por esta razon ahora no veo el pedido ya que no pude volver a entrar	xiyu
+route_ae_manageorder	Почему я не могу изменить мой отзыв	eyu
+route_ae_refund	Здравствуйте. По 10 заказам у меня открытые споры о возврате денег. Все споры решены в мою пользу 9 сентября. Служба поддержки все проверила. Прошло 20 дней, но деньги мне не перечислили. Мне сказали, что если за это время возврат не придет, обратиться сно	eyu
+route_ae_manageorder	Здрасти как изменить Имя в заказе который ожидает подтверждения ?	eyu
+route_ae_refund	Han pasado 15 dias y no me han devuelto el dinero	xiyu
+route_ae_refund	Номер заказа: 700072535945743, когда вернут деньги	eyu
+route_ae_nr	Para q dicen 60 días si no va llegar	xiyu
+route_ae_orderclose	Mi pedido ha sido cerrado porque el pago no fue hecho a tiempo.	xiyu
+route_ae_refund	я не получил возврат денежных средств по заказу 82834834058790	eyu
+route_ae_refund	He cancelado un pedido. ¿Estará mi dinero en el banco?	xiyu
+route_ae_payment	¿Cómo pago el pedido por transferencia bancaria?	xiyu
+route_ae_manageorder	¿Por qué en mi pedido se ha confirmado la recepción automáticamente?	xiyu
+route_ae_searchcontact	Продавец мне не отвечает уже в течении 7 дней	eyu
+route_ae_nr	Confirmé pedido no enviado.	xiyu
+route_ae_nr	¿Por qué el número de seguimiento no puede localizar el envío?	xiyu
+route_ae_payment	Как оплатить мтс на 70 и получить на счет 100?	eyu
+route_ae_payment	Когда можно оплатить заказ из распродажи?	eyu
+route_ae_orderclose	У меня закрыт заказ	eyu
+route_ae_manageorder	N.º de pedido: 86074295803135	xiyu
+route_ae_refund	y nunca me reembolsaron el diner	xiyu
+route_ae_manageorder	Y NO ME LLEGA EL CODIGO CE COMPRA	xiyu
+route_ae_refund	el reembolso de un pedido que no me ha llegado desde hace mas de dos meses	xiyu
+route_ae_searchcontact	Как проверить если у продавца нет отзывов	eyu
+route_ae_orderclose	продавец просит отменить заказ	eyu
+route_ae_nr	No ha llegado mi pedido pero el pedido aparece finalizado, me puse en contacto con los vendedores y me dicen que espere, no tengo problema en esperar , pero con seguridad si me llega el pedido?	xiyu
+route_ae_orderclose	porque el vendedor me dijo que la cerrase	xiyu
+route_ae_payment	Из корзины не могу оплатить почему-то.Пишет,что-то пошло не так	eyu
+route_ae_nr	здравствуйте! истекло время подтверждения товар не получен Как быть	eyu
+route_ae_searchcontact	He hecho un pedido pero no sé cómo contactar con el vendedor.	xiyu
+route_ae_refund	No puedo solicitar un reembolso	xiyu
+route_ae_refund	Y no he recibido ni un solo peso por devoluvion de dinero	xiyu
+route_ae_nr	me puede decir exactamente en que lugar se encuentra mi pedido?	xiyu
+route_ae_nr	83633681881 Я могу получить свой заказ	eyu
+route_ae_payment	¿Puedo hacer pagos con PayPal?	xiyu
+route_ae_refund	Прошу объяснить причину или вернуть деньги!	eyu
+route_ae_refund	прошло уже 20 рабочих дней.возврат средств не поступил	eyu
+route_ae_refund	quiero que me reembolse mi dinero	xiyu
+route_ae_orderclose	Как отменить отмену заказа?	eyu
+route_ae_payment	NECESITO PAGAR MI PEDIDO NO HE PODIDO PORQUE SON 60 ARTICULOS Y ME TOCA PAGARLO UNO POR UNO Y QUIERO PAGARLOS TODOS DE UNA Y SABER EL VALOR DEL ENVIO	xiyu
+route_ae_orderclose	Qué significa closed?	xiyu
+route_ae_orderclose	пожалуйста я случайно отменила заказ	eyu
+route_ae_payment	У AliExpress есть счет PayPal	eyu
+route_ae_nr	realice un pago de US244 por la compra de 5 radios pantallas, los cuales se demoran en llegar entre 21 a 30 días a mi pais	xiyu
+route_ae_nr	ПОСЫЛКА ПРИШЛА НЕ ПО АДРЕСУ	eyu
+route_ae_payment	проблема была в перечислении средств продавцу	eyu
+route_ae_nr	Когда отправят мой заказ?	eyu
+route_ae_nr	Pero se a pasado ya el tiempo	xiyu
+route_ae_manageorder	Pedido parcialmente enviado.	xiyu
+route_ae_refund	No me devuelven el dinero	xiyu
+route_ae_nr	Dirección de envío equivocada por el vendedor	xiyu
+route_ae_searchcontact	¿Por qué no puedo encontrar el producto en una tienda?	xiyu
+route_ae_refund	Моя покупка была отменена и я хочу вернуть деньги	eyu
+route_ae_orderclose	pedido Cerrado	xiyu
+route_ae_orderclose	por que no me cancelaron el pedido	xiyu
+route_ae_manageorder	как оставить дополнительный отзыв к тому, что я уже сделала?	eyu
+route_ae_refund	Un reembolso si el vendedor ha aceptado la disputa.	xiyu
+route_ae_searchcontact	Сообщения в папке "Входящие" не обновляются поэтому я не могу их проверить	eyu
+route_ae_refund	3-20 дней прошло	eyu
+route_ae_orderclose	получу ли я оплаченный товар за отмененный заказ?	eyu
+route_ae_payment	tengo problemas porque pongo los datos de la tarjeta y no me lo registra	xiyu
+route_ae_manageorder	En mi pedido pone Procesamiento de Fondos, ¿qué significa esto?	xiyu
+route_ae_refund	Pero el vendedor no me devolvió el dinero	xiyu
+route_ae_searchcontact	¿Tienen envío gratuito?	xiyu
+route_ae_manageorder	N.º Pedido:86097386944478	xiyu
+route_ae_refund	pues estoy a la espera de ese dinero, y me urge	xiyu
+route_ae_manageorder	Я сделал заказ от вас Где можно найти мой счет	eyu
+route_ae_orderclose	Заказ закрыт а причины нет	eyu
+route_ae_refund	Верните деньги и я переоформлю заказ	eyu
+route_ae_manageorder	Queria preguntar por si hay novedades sobre el pedido504108340209363	xiyu
+route_ae_orderclose	A ver yo cancele el pedido 504554449849586 y el vendedor lo envío y ahora que lo envia me dice que si lo que queria era cancelarlo que lo cancele... Peeo me da miedo que no me devuelva el dinero... Son 16 euros.	xiyu
+route_ae_searchcontact	Проходят ли продавцы проверку	eyu
+route_ae_searchcontact	¿Disponen de una carta de medidas?	xiyu
+route_ae_refund	Возврат средств с помощью Western Union	eyu
+route_ae_refund	oye tengo pendiente un reembolso y necesito saber que pasa	xiyu
+route_ae_nr	Почему мои заказы уходят на неверный адрес?	eyu
+route_ae_payment	¿Puedo pagar con PayPal?	xiyu
+route_ae_orderclose	У меня проблема с продавцом. Я отказывалась от заказа, а продавец не принимает отказ и сейчас отправил заказ.700920631108131	eyu
+route_ae_refund	Можно ли получить денежные средства раньше?	eyu
+route_ae_nr	necesito saber de mi pedido	xiyu
+route_ae_payment	Оплатила заказы, но они висят в «ожидается оплата». Что делать?	eyu
+route_ae_payment	Принимается ли PayPal в качестве способа оплаты	eyu
+route_ae_nr	No he recibido el pedido enviado ya que se lo han entregado a otra persona. Necesitaba el pedido dentro del plazo marcado pero	xiyu
+route_ae_searchcontact	y si yo quiero tener un producto se puede	xiyu
+route_ae_refund	He cancelado mi pedido, ¿cuándo puedo esperar un reembolso?	xiyu
+route_ae_orderclose	¿Por qué mis pedidos fueron cancelados por AliExpress?	xiyu
+route_ae_orderclose	El pedido fue cerrado por el sistema debido a que el vendedor es sospechoso.	xiyu
+route_ae_searchcontact	¿Es posible recibir sus cosas en ***?	xiyu
+route_ae_searchcontact	¿Dónde puedo encontrar los mensajes viejos del vendedor?	xiyu
+route_ae_orderclose	Tarifa por cancelación de pedido con Escrow (depósito en garantía).	xiyu
+route_ae_nr	Мне нужно платье до моей свадьбы	eyu
+route_ae_searchcontact	В течении 5 дней он ответит ?	eyu
+route_ae_searchcontact	Я не могу написать ему	eyu
+route_ae_payment	я оплатил заказ 503888568057834 а он в статусе ожидает платеж	eyu
+route_ae_searchcontact	Как найти надежных продавцов	eyu
+route_ae_nr	mi problema es que no ah llegado mi pedido ni se donde esta puesto que la paqueteria no cambio el estatus desde el 21 de septiembre y solo tengo 18 hras antes que termine el seguro del vendedor	xiyu
+route_ae_payment	почему я не могу оплатить спецкупонами свой заказ?	eyu
+route_ae_refund	Después de que la transacción fuese cancelada, ¿por qué el sistema no me devuelve el dinero?	xiyu
+route_ae_refund	Estoy en tramite de reembolso ... En disputa el vendedor se a comunicado conmigo pero no me da muchas opciones de reembolso me dice que si no es paypal me envian de nuevo el producto porque sera perjudicial para ellos. Pero ya paso mucho tiempo y yano me s	xiyu
+route_ae_nr	мне придет уведомление где я могу получить свой заказ?	eyu
+route_ae_manageorder	No tengo pedidos cargados	xiyu
+route_ae_nr	я отслеживаю свои заказы, а там онии дут не на мой адрес	eyu
+route_ae_searchcontact	Мне нужно связаться с продавцом	eyu
+route_ae_nr	Почему так долго требуется, чтобы продавец отправил мои товары?	eyu
+route_ae_manageorder	pedido: 85180788010476	xiyu
+route_ae_searchcontact	queria saber si puden enviar en un solo paquete dos pedidos de distintos vendedores, gracias	xiyu
+route_ae_payment	У вас можно оплатить киви кошельком?	eyu
+route_ae_manageorder	¿Cuándo puedo recibir la información de envío?	xiyu
+route_ae_nr	моя посылка что делает в латвии?	eyu
+route_ae_searchcontact	У меня есть номер магазина но где мне его заполнить	eyu
+route_ae_searchcontact	Является ли реклама точной	eyu
+route_ae_searchcontact	No puedo ver los productos que los medios encuentran.	xiyu
+route_ae_orderclose	EL VENDEDOR PUEDE REACTIVAR EL PEDIDO CANCELADO POR ERROR	xiyu
+route_ae_payment	¿Por qué mi pago no tuvo éxito?	xiyu
+route_ae_manageorder	Этот заказ не отображается в ожидании отправки	eyu
+route_ae_refund	ya que la tarjeta con la que generalmente hago mis compras en aliexpress creo que no puede recibir reembolsos	xiyu
+route_ae_nr	ola eva buenos dias hace mas de 15 dias un cristal templado para LG2 mini y aun no lo he recibido	xiyu
+route_ae_searchcontact	Как добавить мои а/я в адрес доставки	eyu
+route_ae_payment	Пищит что 3 позиции ждут оплаты, деньги с карты списаны	eyu
+route_ae_orderclose	no esta ni pago ni despachado pero no me deja cancelarlo	xiyu
+route_ae_nr	Pero dice que este sigue en tránsito, puede que igual llegue a correos de chile	xiyu
+route_ae_searchcontact	quiero ver si ustedes venden un producto que vi en aliexpress	xiyu
+route_ae_manageorder	el producto fue enviado	xiyu
+route_ae_orderclose	Заказ не удален	eyu
+route_ae_orderclose	el comprador pidio cerrarla y extender el tiempo, lo cual no lo realizo y aun no llega el producto y perdi mi tiempo de protección	xiyu
+route_ae_manageorder	А статус заказа не изменился	eyu
+route_ae_searchcontact	El vendedor no contesta.	xiyu
+route_ae_manageorder	¿Puedo dejar valoración antes de que el pedido finalice?	xiyu
+route_ae_searchcontact	Вы можете предоставить мне ваш каталог	eyu
+route_ae_refund	Когда можно получить полный возврат средств	eyu
+route_ae_orderclose	возобновление заказа	eyu
+route_ae_orderclose	как снять отмену закака	eyu
+route_ae_manageorder	¿Cómo puedo acelerar un pedido?	xiyu
+route_ae_refund	Здравствуйте, я отменил заказ , но деньги не вернулись	eyu
+route_ae_orderclose	Porque aparece finalizado mi pedido	xiyu
+route_ae_orderclose	pedido borrado	xiyu
+route_ae_searchcontact	Товар сломался через 1.5 месяца , продавец не отвечает	eyu
+route_ae_manageorder	не удаляется полностью отработанный заказ. нет корзины	eyu
+route_ae_payment	Деньги списали, а третий товар не появился ВООБЩЕ	eyu
+route_ae_payment	yo pague por transferencia 2 productos, la tt	xiyu
+route_ae_orderclose	NO ME DEJA CERRAR O NO SE CERRAR EL PEDIDO	xiyu
+route_ae_refund	Здраствуйте я недавно сделал заказ. Потом его отменил когда я получу деньги обратно?	eyu
+route_ae_nr	Заказ отправлен на неверный адрес другому покупателю	eyu
+route_ae_orderclose	necesito eliminar los pedidos con estos numeros de seguimiento:PQ599A0401786280146191T - PQ599AO400036880146191Q	xiyu
+route_ae_nr	Me puedes confirmar si mi pedido será enviado? O hay algún problema?	xiyu
+route_ae_refund	Quisiera saber si me van a reembolsar	xiyu
+route_ae_manageorder	Pulsé accidentalmente el botón de pedido completado.	xiyu
+route_ae_refund	Ya pagué y quiero saber cuándo me devolverán mis pagos.	xiyu
+route_ae_manageorder	el pedido esta mal	xiyu
+route_ae_payment	Но суммы двойные	eyu
+route_ae_orderclose	Как удалить полученный заказ RG877412999CN	eyu
+route_ae_orderclose	Я обнаружила что и остальные мои заказы закрыты	eyu
+route_ae_nr	Добрый день, заказ был давно оплачен, товар не пришёл	eyu
+route_ae_orderclose	как мне восстановить отмененный заказ?	eyu
+route_ae_payment	Я поменяла карту , как удалить старую	eyu
+route_ae_nr	Все же а как получить посылку	eyu
+route_ae_manageorder	Подскажите пожалуйста как узнать сумму заказа в $?	eyu
+route_ae_refund	Мне вернули деньги за спор я хотел сказать вам спасибо=)	eyu
+route_ae_orderclose	Я хочу получить заказ который отменила	eyu
+route_ae_manageorder	REALICE UNA COMPRA, PERO ME APARACEIO 2 ORDENES DE PEDIDO	xiyu
+route_ae_nr	Me preocupa no llegue a tiempo para la boda	xiyu
+route_ae_orderclose	mi pedido fue cerrado despues de que fue pagado con exito y descontado de mi tarjeta de credito	xiyu
+route_ae_manageorder	Как узнать на какой адрес продавец отправил товары	eyu
+route_ae_orderclose	ЗАКРЫЛА ЗАКАЗ а деньги уже сняли как я могу их вернуть	eyu
+route_ae_nr	хочу чтоб товар был доставлен по адресу. а не пункте самовывоза	eyu
+route_ae_manageorder	Как найти предыдущие покупки	eyu
+route_ae_manageorder	donde recibo mi producto si pague en western union	xiyu
+route_ae_manageorder	Как написать отзыв на товары	eyu
+route_ae_refund	Necesito que reembolsen mi dinero	xiyu
+route_ae_searchcontact	Я хочу использовать фотографию товара	eyu
+route_ae_searchcontact	¿Podemos confiar en esta compañía listada en su página web?	xiyu
+route_ae_orderclose	не могу удалить исполненные заказы	eyu
+route_ae_nr	Mi orden de pedido q paarace como recibido y nunca llego	xiyu
+route_ae_nr	Tengo un pedido que llevo desde el día 7/11 esperando le y aun no lo he recibido numerosos de pedido87363376486720	xiyu
+route_ae_nr	Вы можете мне помочь отследить заказ	eyu
+route_ae_nr	срок заказа истек. товар не получен, продавец на контакт не выходит.	eyu
+route_ae_payment	no he podido pagar con mi nueva tarjeta porque el pedido se encuentra modo apelacion	xiyu
+route_ae_manageorder	я выбрала семена но продавец отакует меня своими сообщениями , что бы я докупила еще что-то я отменяю 4 раза заказ а он возобнавляется	eyu
+route_ae_nr	El vendedor reconoce que el producto no llego	xiyu
+route_ae_payment	Я сделал заказ 700087468715617. Но оплата не прошла. Что делать?	eyu
+route_ae_refund	cuanto es el tiempo de reembolso de una compra cancelada?	xiyu
+route_ae_refund	QUE HAGO, QUIERO QUE ME REEMBOLSEN	xiyu
+route_ae_refund	Как получить возврат средств через QIWI	eyu
+route_ae_nr	no he recibido nada de este pedido 503540573058055	xiyu
+route_ae_nr	Y no recibí el móvil	xiyu
+route_ae_manageorder	pero resulta que el regalo tenia el numero de seguimiento del pedido y como se me estaba acabando el tiempo de seguridad	xiyu
+route_ae_nr	Как отслеживать посылки отправленные по почте	eyu
+route_ae_manageorder	¿Puedo cambiar mi envío a envío gratuito?	xiyu
+route_ae_nr	Я заказал товары но я не получил свой заказ	eyu
+route_ae_manageorder	Я хочу знать какие товары я купил последний раз	eyu
+route_ae_searchcontact	По сегодняшний день продавец не отвечает на мои сообщения и новой посылки нет. К Вам уже обращалась за помощью, но ситуация с места не сдвинулась. К этому всему, я почему-то даже не могу оставить отзыв о покупке, предупредив всех желающих об опасности сдел	eyu
+route_ae_searchcontact	Вопрос по продукту	eyu
+route_ae_orderclose	Por que tengo pedidos cancelados?	xiyu
+route_ae_searchcontact	Как я могу написать продавцу	eyu
+route_ae_nr	Что делать если у меня неправильный номер отслеживания	eyu
+route_ae_manageorder	el metodo de envio no fue el que yo escogi	xiyu
+route_ae_refund	Porque no me quieren devolver el dinero	xiyu
+route_ae_orderclose	Mira, resulta que hace un tiempo compre unos productos, y después cancelaron el envío. Como puedo pedir el reembolso?	xiyu
+route_ae_orderclose	Что будет если отменить заказ?	eyu
+route_ae_refund	почему сумма возврата 13.04 когда я заплатил 13.77?	eyu
+route_ae_refund	Как узнать сколько денег возвращается	eyu
+route_ae_manageorder	Здравствуйте! В папке МОИ ЗАКАЗЫ нет значка МУСОРНОЙ КОРЗИНЫ Подскажите пожалуйста как удалить заказ .... на скриншоте это видно .... Me 18/02/12 08:45	eyu
+route_ae_orderclose	tengo dos pedido quiero anular uno	xiyu
+route_ae_nr	Mi pedido no sale ahi	xiyu
+route_ae_searchcontact	но продавец перестал отвечать	eyu
+route_ae_manageorder	Problemas con una compra	xiyu
+route_ae_manageorder	Mi dirección de envío tenía el nombre mal.	xiyu
+route_ae_refund	tengo un pedido devuelto y sin enviar y no he recibido reembolso	xiyu
+route_ae_nr	Он не отслеживается	eyu
+route_ae_payment	No puedo pagar es problema de mi tarjeta	xiyu
+route_ae_searchcontact	Я уже обращался он не отвечает на мой вопрос	eyu
+route_ae_payment	Necesito hacer una orden pero no pagarla	xiyu
+route_ae_refund	Через какое время деньги вернуться на карту	eyu
+route_ae_manageorder	Я не хочу отменять а хочу внести изменения и изменить цвет	eyu
+route_ae_manageorder	No tengo periodo de protección	xiyu
+route_ae_payment	платили мы, заходим в заказ страницы нет	eyu
+route_ae_manageorder	Quiero conocer mi pedido.	xiyu
+route_ae_payment	я оплатил заказ, но статус у него ожидается оплата	eyu
+route_ae_searchcontact	¿Cómo encuentro la dirección postal del vendedor si tengo que devolver artículos?	xiyu
+route_ae_refund	Мне вернули деньги за товар, но он пришел.Как вернуть деньги продавцу	eyu
+route_ae_searchcontact	He publicado un buen número de preguntas a proveedores. Sin respuestas aún.	xiyu
+route_ae_manageorder	Добавляю новый адрес, но он не сохраняется, что делать?	eyu
+route_ae_payment	¿Ya realice mi pago el día de ayer, que procede?	xiyu
+route_ae_orderclose	que significa que el pedido esta cerrado , si fue cobrado a mi banco?	xiyu
+route_ae_nr	si pero desde el dia 21 de octubre esta aceptadado pero no resuelto	xiyu
+route_ae_searchcontact	El proveedor no ha respondido a mis emails.	xiyu
+route_ae_searchcontact	¿Están verificados todos los vendedores de AliExpress?	xiyu
+route_ae_payment	Puedo pagar un producto con paypal	xiyu
+route_ae_orderclose	Quiero cancelar mi pedido.	xiyu
+route_ae_orderclose	Quiero cancelar un pedido en Mis Pedidos, pero hay opción para ello.	xiyu
+route_ae_refund	que me devolvieran mi dinero	xiyu
+route_ae_searchcontact	подробности заказа не открываются, пишет ошибку	eyu
+route_ae_searchcontact	А где искать проверку подлинности?	eyu
+route_ae_searchcontact	¿Cómo busco las tiendas mejor puntuadas?	xiyu
+route_ae_orderclose	Заказ №: 504185816195844. Что делать в такой ситуации? Меня обманули, указав наличие товара на сайте. Я оплатил. Затем написали, что товара нет, предложили купить другой товар. Долго тянули с отменой. Затем отмену заказа не подтверждают. Часть переписки пр	eyu
+route_ae_orderclose	Mi pedido fue cancelado, pero he recibido cosas de esta página.	xiyu
+route_ae_manageorder	Hice una compra, pero el estado está en Procesamiento de Fondos. ¿Qué quieren decir?	xiyu
+route_ae_refund	el pedido ha sido anulado porque el vendedor no lo mando y ustedes me dicen que en siete dias recibire mi dinero. gracias	xiyu
+route_ae_manageorder	¿Cómo puedo comprobar si el vendedor envió los productos a la dirección correcta?	xiyu
+route_ae_manageorder	el tiempo de procesamiento ha acabado, el vendedor ha dicho que ha enviado mi pedido pero esa información no es real	xiyu
+route_ae_payment	Какой способ оплаты мне выбрать, если деньги у меня на карте?	eyu
+route_ae_manageorder	Новый адрес	eyu
+route_ae_orderclose	pedido cancelado, tienda dice que no envía a ese precio	xiyu
+route_ae_payment	Ya que no aceptan mi tarjeta de crédito como pago	xiyu
+route_ae_nr	no he recibeddo mi edido n² 85784705884539	xiyu
+route_ae_payment	puedo conseguir factura?	xiyu
+route_ae_nr	no ha llegado en el plazo dispuesto	xiyu
+route_ae_orderclose	yo no quiero cancelar mi pedido	xiyu
+route_ae_searchcontact	He olvidado mi ID y contraseña de TradeManager, ¿qué puedo hacer?	xiyu
+route_ae_nr	я не получил товар и продавец молчит	eyu
+route_ae_payment	porque me aparece pendiente de pago	xiyu
+route_ae_payment	Можем мы отправить платеж с paypal	eyu
+route_ae_orderclose	El pedido está cerrado	xiyu
+route_ae_refund	Можно по быстрее вернуть деньги?	eyu
+route_ae_searchcontact	Я сделал покупку а он мне не ответил	eyu
+route_ae_searchcontact	Мой рост 166,ю вес 53 кг какой размер курки мне подойдет?	eyu
+route_ae_payment	EL PROBLEMA ES QUE NO HE PODIDO PAGAR CON MI TARJETA DE CREDITO	xiyu
+route_ae_payment	Я оплатил с помощью карты но платеж не проходит	eyu
+route_ae_manageorder	Как я могу изменить мой адрес доставки	eyu
+route_ae_manageorder	no puedo lograr mi pedido	xiyu
+route_ae_searchcontact	не надо я хочу нормальный продавец а не робот	eyu
+route_ae_payment	¿Qué es "espere a que el vendedor confirme la cuenta"?	xiyu
+route_ae_orderclose	¿Por qué se ha cancelado el pedido?	xiyu
+route_ae_refund	tengo problemas con el rembolso	xiyu
+route_ae_nr	Tengo muchos problemas con la Tienda Adv-on Official Store, nuevamente no me ha enviado mi pedido	xiyu
+route_ae_nr	Mis pedidos estan cerrados y no los recibi	xiyu
+route_ae_refund	Я не получил свои возвратные средства от продавца	eyu
+route_ae_nr	Посылка вернулась к отправителю	eyu
+route_ae_nr	Мне пришол заказ только я не могу понять на какой он почте ?	eyu
+route_ae_manageorder	Я хотел бы удалить мой отзыв для моего последнего заказа	eyu
+route_ae_orderclose	Статус моего заказа "закрыто". Что ты имеешь в виду?	eyu
+route_ae_orderclose	восстановтиь заказ	eyu
+route_ae_manageorder	pisos de estilo chino de las mujeres asi son las zandalias pero no se que numero tengo que pedir por que son distintos a los nuestros yo calzo 37-38	xiyu
+route_ae_manageorder	tengo 5 articulos en mi cesta que son de distinto proveedor	xiyu
+route_ae_payment	Не могу прикрепить карту к аккаунту.	eyu
+route_ae_manageorder	Добрый вечер! Мне нужна помощь с тремя заказами	eyu
+route_ae_nr	Я не могу отслеживать заказы с помощью трек-номера выданного продавцом	eyu
+route_ae_nr	Mi pedido se confirmó automáticamente pero no llegó	xiyu
+route_ae_payment	¿Cómo hago pagos?	xiyu
+route_ae_payment	При оплате сумма снялась два раза	eyu
+route_ae_searchcontact	На каком языке общатся с продавцом	eyu
+route_ae_nr	504221303770488 трек не отслеживается 7 дней ,могу узнать где посылка	eyu
+route_ae_refund	мне не вернулись деньги, что делать?	eyu
+route_ae_refund	Dije cuenta de reembolso	xiyu
+route_ae_payment	QUIERO SABER PORQUE NO ME ACEPTAN MI TARJETA NUEVA PORQUE LA ANTERIOR, ME LA ROBARON Y EL BANCO ME TUVO QUE PASAR OTRA PERO NO LLEVA LOS MISMOS NUMERO	xiyu
+route_ae_refund	ya vengo haciendo el rembolso desde hace dias	xiyu
+route_ae_orderclose	El vendedor me.dice que no hay existencias y yo pagué. He cancelado pedido porque no quiero otro.artículo.	xiyu
+route_ae_refund	numero de pedido 86475280306276 con disputa terminada desde 17/10/2017 y no he recibido el dinero en mi tarjeta. que pasa? gracias	xiyu
+route_ae_searchcontact	Почему я не могу найти рубрику "совсем даром"?	eyu
+route_ae_manageorder	Здравствуйте, у меня не проходит номер паспорта при заказе на Ali.	eyu
+route_ae_refund	здравствуйте прошла неделя как открыла спор когда будет возврат денег	eyu
+route_ae_refund	мне обещали вернуть деньги в течении 10 дней	eyu
+route_ae_refund	Si después de la disputa no me han devuelto mi dinero	xiyu
+route_ae_manageorder	удалённые заказы как посмотреть	eyu
+route_ae_nr	realice una compra el viernes 20 y aun el vendedor no lo envia	xiyu
+route_ae_payment	¿Tienen PayPal como método de pago?	xiyu
+route_ae_refund	когда я получу свои средства?????\	eyu
+route_ae_searchcontact	Отправляет ли продавец товары в мою страну	eyu
+route_ae_searchcontact	Ya lo hice pero no me deja contactar	xiyu
+route_ae_refund	Pero en la disputa solo hay dos opciones de reembolso	xiyu
+route_ae_payment	Mi pregunta es si pone que el envío es gratis al pagarlo se cobra	xiyu
+route_ae_searchcontact	еду покупать законно?	eyu
+route_ae_searchcontact	Я не могу связаться с продавцов.	eyu
+route_ae_manageorder	tengo un prolema N.º pedido: 85880239567419	xiyu
+route_ae_manageorder	no puedo ver mi numero de pedido online numero 86215345746557, indica que mi cuenta no tiene autorizacion. responda por favor	xiyu
+route_ae_payment	Получил письмо о том что заказ был отменен потому что оплата не была произведена	eyu
+route_ae_refund	¿Cómo recibo un reembolso por Sofort Banking?	xiyu
+route_ae_payment	mi banco me pide vuestro codigo	xiyu
+route_ae_payment	а сняли с карты 7291	eyu
+route_ae_payment	Ева не могу оплатить мои заказы 504183146473334	eyu
+route_ae_nr	через сколько дней придёт товар	eyu
+route_ae_refund	Quisiera el reembolso de un pedido que aum no me llega	xiyu
+route_ae_payment	я оплатила заказ через киви, но статус заказа по прежнему в ожидании оплаты	eyu
+route_ae_manageorder	el pedido es el 86067776087330	xiyu
+route_ae_searchcontact	Как судить о благонадежности поставщика	eyu
+route_ae_nr	Здравствуйте! По неопытности сделала много мелких заказов в разных магазинах, которые отправили без международного отслеживаемого номера. В итоге почти все они перестали отслеживаться после того, как покинули Китай. За некоторые я уже вернула деньги, но ос	eyu
+route_ae_refund	Devolver mi dinero	xiyu
+route_ae_refund	Сколько в среднем по времени происходит возврат средств !?	eyu
+route_ae_refund	так а как добиться возврата средств?	eyu
+route_ae_refund	¿Por qué no he recibido el reembolso?	xiyu
+route_ae_manageorder	pues en el último que pedí salió para pagar 462	xiyu
+route_ae_searchcontact	где прочитать ответ продавца на мои вопросы?	eyu
+route_ae_orderclose	Как восстановить заказ?	eyu
+route_ae_payment	Я заплатил за покупки но система говорит что платежей не было	eyu
+route_ae_orderclose	отметил не полученный заказ	eyu
+route_ae_payment	pago en oxxo	xiyu
+route_ae_payment	На карту Сбербанк	eyu
+route_ae_refund	Я отменил заказ. Где мои деньги за товар?	eyu
+route_ae_searchcontact	no resuelven mis dudas con quien puedo hablar	xiyu
+route_ae_manageorder	Вместо +79313600798 указала +89313600798	eyu
+route_ae_refund	уже прошло 15 дней возврата средств нет	eyu
+route_ae_searchcontact	Где находится список промотоваров	eyu
+route_ae_manageorder	Т. К. Я сделала повторный заказ на этот же товар но с изменениями.	eyu
+route_ae_orderclose	деньги сняли. а заказ закрыт	eyu
+route_ae_searchcontact	Quería saber hoy echo el pago de un móvil y me como saber se el pedido m va llegar a casa	xiyu
+route_ae_payment	Почему написано На вашей карте недостаточно средств	eyu
+route_ae_refund	деньги вернулись.БЛАГОДАРЮ	eyu
+route_ae_searchcontact	Продавец вообще нехочет ответить ни на одно из 4 письм.	eyu
+route_ae_orderclose	El pedido se muestra cancelado	xiyu
+route_ae_nr	Как проверить ход доставки	eyu
+route_ae_manageorder	no me mandes la lista de pedidos	xiyu
+route_ae_orderclose	Я ОТКАЗАЛАСЬ ОТ ЗАКАЗА.МНЕ НАПИСАЛИ ЗАВЕРШЕННО.ЧТО ЭТА ЗНАЧИТ	eyu
+route_ae_orderclose	я не хочу получать этот товар	eyu
+route_ae_payment	Заказ №: 504373842183839 так долго никогда платеж не проверялся	eyu
+route_ae_manageorder	по поводу заказа 504759301929181	eyu
+route_ae_payment	Почему я было снято больше средств	eyu
+route_ae_searchcontact	donde esta el boton de iniciar chat	xiyu
+route_ae_searchcontact	это написал мне продавец	eyu
+route_ae_payment	Почему мой платеж не прошел	eyu
+route_ae_nr	LP00073974117345 где он сейчас???	eyu
+route_ae_orderclose	¿Qué pasa si el vendedor no aprueba mi solicitud de cancelación?	xiyu
+route_ae_searchcontact	Добрый день. Подскажите, не могу получить ответ от продавца. Послал ему пару сообщений, с вопросом об отправке товара. заказ№ 86636209547747 в магазине Shenzhen WTYD Technology Limited. Просто в описании написано, что отправка будет произведена в семидневн	eyu
+route_ae_manageorder	здравствуйте. не могли бы вы дать мне информацию по моему заказу?(	eyu
+route_ae_payment	¿Es posible pagar con tarjeta de débito?	xiyu
+route_ae_orderclose	в статусе заказа написано что он завершён	eyu
+route_ae_payment	me robaron	xiyu
+route_ae_nr	Продавец отправил товар в другой адрес, и я не получил товар	eyu
+route_ae_payment	ME MARCA ERROR AL INGRESAR LA TARJETA	xiyu
+route_ae_orderclose	Я хочу, чтоб его точно отменили	eyu
+route_ae_searchcontact	Quiero mi pedido más rápidamente.	xiyu
+route_ae_searchcontact	¿Cómo puedo personalizar mi producto?	xiyu
+route_ae_manageorder	Два разных заказа показываются как один	eyu
+route_ae_nr	No he recibido el pedido de la imagen.	xiyu
+route_ae_manageorder	mi pedido no muestra actualización del envió	xiyu
+route_ae_manageorder	700199270895960 Вот этот номер	eyu
+route_ae_orderclose	Мне нужно что то менять или просто ждать подтверждения отказа?	eyu
+route_ae_searchcontact	вы можете написать продавцу или в службу защиты клиентов?	eyu
+route_ae_nr	No me envia nada	xiyu
+route_ae_payment	дак прочему заказ обновился до 58 дней	eyu
+route_ae_manageorder	¿Cómo encuentro un pedido anterior?	xiyu
+route_ae_payment	я когда смогу оплатить товар ?	eyu
+route_ae_orderclose	Я поставил ничаино отмено товара	eyu
+route_ae_searchcontact	el vendedor de mi producto no numero de telf para comunicar	xiyu
+route_ae_refund	No he recibido reembolso ninguno	xiyu
+route_ae_payment	в банком связывались, проблем нет. заказ не оплачивается	eyu
+route_ae_orderclose	me sale pedido cerrado que significa	xiyu
+route_ae_nr	Здравствуйте, я так и не полул заказ	eyu
+route_ae_payment	Здравствуйте. 13.09.2017г. с моей карты № 410799...0263 кем то был сделан заказ на Вашем сайте.Сумма заказа составила 9680.69 RUB/Код авторизации 378206.Я ничего на такую сумму не заказывал. Прошу Вас разобраться и сообщить мне на какой аадрес сделан заказ	eyu
+route_ae_refund	А почему возврат средств?	eyu
+route_ae_refund	Bueno los gasto de enviar de nuevo el paquete a china no me preocupan tanto como si recibiría el renvolso íntegro	xiyu
+route_ae_manageorder	Я хочу изменить мой отзыв но не получается	eyu
+route_ae_nr	Y como hablo con aduana?	xiyu
+route_ae_orderclose	Qué sudece con los pedidos que ponen cerrado?	xiyu
+route_ae_manageorder	el proveedor esta procesando el pedido	xiyu
+route_ae_refund	¿Puedo recibir el reembolso en mi Alipay Wallet?	xiyu
+route_ae_nr	no mellego el pedido	xiyu
+route_ae_nr	ya he paga y no me han enviado mi producto	xiyu
+route_ae_searchcontact	Ya me contacte con el vendedor	xiyu
+route_ae_orderclose	Quiero confirmar mi anulación de pedido	xiyu
+route_ae_orderclose	По какой причине мой заказ отменен?	eyu
+route_ae_orderclose	можно узнать отменили ли мне заказы	eyu
+route_ae_searchcontact	Я хотел бы поговорить с кем-нибудь до покупки	eyu
+route_ae_manageorder	Что делать если я указал неправильный адрес	eyu
+route_ae_searchcontact	Я не могу писать в поле чтобы связаться с заказчиком	eyu
+route_ae_refund	на какую карту придет возврат?	eyu
+route_ae_refund	можно возобновить заказ ,чтобы не ждать возврата ?	eyu
+route_ae_nr	Почему я не могу отследить заказ по трек-номеру	eyu
+route_ae_manageorder	¿Por qué la cuenta atrás de mi pedido muestra menos de 3 días tan pronto tras haber sido enviado?	xiyu
+route_ae_searchcontact	боюсь ошибиться в заказе подмерка например купить рубашку или майку	eyu
+route_ae_refund	кабель для зарядки не рабочий, хочу вернуть часть денег	eyu
+route_ae_nr	no he recibido mi pedido, pero aparece pedido finalizado	xiyu
+route_ae_refund	Reembolso por Western Union.	xiyu
+route_ae_orderclose	quiero cancelar un pedido, el proveedor no tiene el color elegido.	xiyu
+route_ae_payment	как удалить карту кредитную	eyu
+route_ae_searchcontact	Quiero saber si ustedes tienen envios a Paraguay	xiyu
+route_ae_manageorder	Tengo un problema al cambiar mi dirección.	xiyu
+route_ae_orderclose	que quiere decir pedido cerrado?	xiyu
+route_ae_searchcontact	El vendedor no responde a mis preguntas, copia y pega los mismos mensajes. Cuando quiero cancelar el pedido, lo rechaza.	xiyu
+route_ae_manageorder	Можно ли изменить тип почты после отправки	eyu
+route_ae_orderclose	mira yo cancele 2 pedidos que todavía no se enviaban y me sale el cobro por que ?	xiyu
+route_ae_manageorder	Можно ли изменить мой заказ после оплаты за него	eyu
+route_ae_payment	¿Puedo pagar los productos con WebMoney Wallet?	xiyu
+route_ae_nr	Y ES POSIBLE QUE ME PROPORCIONES POR ESTE MEDIO EL NUMERO DE RASTREO ACTUAL Y EL NOMBRE DEL OPERADOR LOGISTICO ??	xiyu
+route_ae_searchcontact	Написала всем продавцам	eyu
+route_ae_manageorder	не полностью указано фио,товар придет все равно?	eyu
+route_ae_searchcontact	¿Es posible elegir una talla?	xiyu
+route_ae_nr	Мне нужно узнать о посылке 56945679580	eyu
+route_ae_orderclose	мои заказы закрываютса при попытке их оплаты. почему так происходит?	eyu
+route_ae_orderclose	Здрасте, я случайно отменил заказ, ето можна отменить?	eyu
+route_ae_searchcontact	У продавца просила продлить срок защиты.Продавец не ответил	eyu
+route_ae_manageorder	срок заказа закончился	eyu
+route_ae_manageorder	y pide q le pague el envío de retorno	xiyu
+route_ae_refund	no he recibido mi dinero	xiyu
+route_ae_nr	Заказ « выполнен», но я его не получила	eyu
+route_ae_searchcontact	Mi ventana de mensajes no me deja escribir una respuesta a un vendedor. ¿Por qué pasa esto?	xiyu
+route_ae_payment	He cambiado mi número de tarjeta.	xiyu
+route_ae_manageorder	нажимаю подробнее адрес правильный	eyu
+route_ae_nr	No tengo un número de seguimiento	xiyu
+route_ae_orderclose	мной был оплачено 24 заказа. И 4 из них продавцы закрыли	eyu
+route_ae_refund	могут ли возвращать денежные средства частично	eyu
+route_ae_orderclose	В мой алиэкспресс заказ не удаляется в личном кабинете	eyu
+route_ae_nr	Me pone como entregado un envio y yo no he recibido nada	xiyu
+route_ae_orderclose	Почему закрыли мои заказы?	eyu
+route_ae_refund	Почему мне до сих пор не отправлены деньги за отмененные заказы 1 заказ № 700928781428527, 2 заказ № 700929089448527 ???	eyu
+route_ae_manageorder	Ver el estado de mi pedido.	xiyu
+route_ae_refund	el vendedor me dice que solicite el reembolso como lo hago	xiyu
+route_ae_orderclose	я заказал и тут жек отменил заказ	eyu
+route_ae_payment	после покупки я сразу плачу	eyu
+route_ae_payment	какие то проблемы с сайтом?на моменте оплаты связь с интернетом разрывается	eyu
+route_ae_manageorder	Здесь нет этого заказа.	eyu
+route_ae_orderclose	почему вы взяли деньги с моей карты а заказы закрыты?	eyu
+route_ae_manageorder	Продавец уже две недели рассматривает заказ	eyu
+route_ae_refund	El vendedor no acepta la devolución ni el reembolso	xiyu
+route_ae_refund	¿Cuándo recibiré mi reembolso por el pedido cancelado?	xiyu
+route_ae_refund	ya no puedo reclamar al vendedor pero el producto se encuentra en el pais y quiero mi camara o mi dinero	xiyu
+route_ae_nr	Quiero saber cuando recibió mi compra	xiyu
+route_ae_orderclose	Me enviaron un email cancelando mi pago porque el vendedor era dudoso.	xiyu
+route_ae_nr	recibi un correo del vendedor que no tenia el color pedido	xiyu
+route_ae_orderclose	Yo no cancele el pedido	xiyu
+route_ae_payment	Я не помню пароль от AliPay	eyu
+route_ae_nr	Моя посылка пришла по чужоиу адресу	eyu
+route_ae_refund	а когда будет возврат денег	eyu
+route_ae_orderclose	Вообще, заказ отменили, кто и как не пойму,	eyu
+route_ae_orderclose	Мои заказы опять закрыты	eyu
+route_ae_nr	если транспортировка заказанного товара отменена,как быть дальше	eyu
+route_ae_orderclose	¿Por qué se canceló mi pago?	xiyu
+route_ae_nr	no puedo hacer el seguimiento de mi pedido	xiyu
+route_ae_nr	Soy un cliente categoría "Diamante". Intento contactar con Vdes. pero es imposible... Antes de seguir realizando compras a través de Aliexpress necesito sea aplicada la cobertura a todos aquellas operaciones en las que no he recibido el producto	xiyu
+route_ae_manageorder	Меня зовут Юлия. Номер заказа: 504297473425812	eyu
+route_ae_searchcontact	necesito un producto	xiyu
+route_ae_orderclose	¿Cómo cancelo un pedido en la etapa de procesamiento del pago?	xiyu
+route_ae_refund	Quiero el reembolso de mi dinero	xiyu
+route_ae_orderclose	el numero de seguimiento indica cancelado	xiyu
+route_ae_nr	при нажатии отследить	eyu
+route_ae_manageorder	Моего заказа Нет, в моих заказах. Он единственный в этом месяце.	eyu
+route_ae_payment	porque han sido cobrados igualmente	xiyu
+route_ae_payment	Estoy intentando hacer un pago a través de AliExpress.	xiyu
+route_ae_nr	когда я получу заказ	eyu
+route_ae_nr	pero aun no ha llegado	xiyu
+route_ae_orderclose	могу я просто отменить не отправленный заказ и вернуть деньги?	eyu
+route_ae_searchcontact	¿Qué talla debería pedir?	xiyu
+route_ae_manageorder	Заказы оплачены, статус их не определён	eyu
+route_ae_refund	Quisiera saber en qué estado está mí reembolso	xiyu
+route_ae_refund	мне пришла смс что деньги вернули,но на киви их нет. что делать?	eyu
+route_ae_orderclose	ya cancele mi pedido para comprar con otra tienda	xiyu
+route_ae_payment	Добрый вечер. Я не могу оплатить заказ	eyu
+route_ae_searchcontact	Скажите кто может помочь с подбором товара?	eyu
+route_ae_searchcontact	так продавец и не связался со мной	eyu
+route_ae_manageorder	одновременно с этим я сделал еще один заказ. Тот уже статус Поставка	eyu
+route_ae_searchcontact	Что такое доставка внутри страны	eyu
+route_ae_searchcontact	Вы доставляете в Канаду	eyu
+route_ae_orderclose	Mira sabes que tengo un pedido y aparece que elnpesido fue cancelado y quiero saber por que motivo lo cancelaron	xiyu
+route_ae_manageorder	Mi orden fue devuelto al mittente	xiyu
+route_ae_orderclose	Я не буду отменять заказ.	eyu
+route_ae_refund	No he recibido el reembolso de los gastos de envío	xiyu
+route_ae_nr	Mi pedido no a llegado a mi pais y no puedo abrir una disputa	xiyu
+route_ae_manageorder	с заказами все в порядке	eyu
+route_ae_refund	когда вернут деньги за заказ	eyu
+route_ae_manageorder	Номер заказа: 700038021540854	eyu
+route_ae_manageorder	Pero aunque me pidio que espere unas semanas más y el amplio la fecha de entrega mi pedido aparece cerrado	xiyu
+route_ae_searchcontact	Откуда осуществляется доставка	eyu
+route_ae_searchcontact	Магазин Basia внёс меня в черные список. Почему? Решите этот вопрос	eyu
+route_ae_orderclose	я могу отменить заказ до его отправки? как поступить?	eyu
+route_ae_nr	no he recibido ni el producto ni el reembolso	xiyu
+route_ae_orderclose	Qué pasa si se cancela el pedido?	xiyu
+route_ae_nr	мне не пришел товар и продавци не вернули деньги	eyu
+route_ae_payment	¿Cómo pago con mi tarjeta de crédito?	xiyu
+route_ae_nr	¿Qué pasa si no he recibido el pedido y hago clic en confirmación?	xiyu
+route_ae_searchcontact	Necesito su numero de telefono	xiyu
+route_ae_nr	Продавец не владеет информацией где мой товар	eyu
+route_ae_nr	que no recibido el pedido	xiyu
+route_ae_nr	no llega mi pedido	xiyu
+route_ae_manageorder	No puedo realizar la valoracion de un prodcto	xiyu
+route_ae_manageorder	номер заказа который я итак знаю.	eyu
+route_ae_nr	24 сентебря его отправили в моё от деление и оно пропало	eyu
+route_ae_searchcontact	NECESITO EL CONTACTO DEL VENDEDOR	xiyu
+route_ae_nr	Я заказал одно платье но не получил его	eyu
+route_ae_refund	Свяжитесь с магазином №2943237	eyu
+route_ae_searchcontact	¿Los pedidos se pueden entregar en mi país?	xiyu
+route_ae_payment	¿Cómo puedo usar tarjetas de regalo MasterCard?	xiyu
+route_ae_payment	Ева, добрый день. При оплате заказа возникает ошибка	eyu
+route_ae_refund	Когда можно получить деньги на мою карточку	eyu
+route_ae_refund	El vendedor me pide que cierre la disputa y me ara el reembolso. Pero en el reembolso pone 0 euros	xiyu
+route_ae_searchcontact	Какова стоимость доставки нескольких различных товаров	eyu
+route_ae_searchcontact	504406016610074 я отменил заказ... продавец игнорирует	eyu
+route_ae_nr	С 26 сентября, уже двадцать дней нет никакой информации о заказе.	eyu
+route_ae_refund	Идет возврат средст через яндекс деньги	eyu
+route_ae_payment	¿Qué puedo hacer si mi pago con tarjeta fue denegado?	xiyu
+route_ae_payment	Я бы хотел поменять номер карты, старая уже не действует.	eyu
+route_ae_manageorder	He hecho un pedido doble de la misma cosa por accidente.	xiyu
+route_ae_orderclose	Я скегодня заказала и сегодня же отменила	eyu
+route_ae_refund	ГДЕ КНОПКА "ПРИМЕНИТЬ ВОЗВРАТ"?	eyu
+route_ae_refund	Вернулись деньги за заказ?	eyu
+route_ae_payment	¿Por qué los pagos con Boleto aún aparecen como pendientes de pago?	xiyu
+route_ae_nr	porque la otra persona ya recibió el pedido	xiyu
+route_ae_nr	eh resulta que pase a confirmar la recepcion de mi pedido desde la app y aun le falta mucho para que llegue	xiyu
+route_ae_searchcontact	No buenas mi consulta es sobre como seria la entrega para mis productos en panama	xiyu
+route_ae_nr	Где мои заказы . Заказаны сегодня 11,11,2017	eyu
+route_ae_nr	за 2 недели он даже не тронулся из китая	eyu
+route_ae_orderclose	заказ не отменяется в статусе ожидания	eyu
+route_ae_manageorder	Так это ошибка системы один и тот же заказ 2 раза	eyu
+route_ae_nr	Почему компания доставки возвращает мою посылку	eyu
+route_ae_searchcontact	Я хочу знать больше о спецификации товара	eyu
+route_ae_manageorder	Mi transacción ha estado congelada por demasiado tiempo.	xiyu
+route_ae_orderclose	Ya no quiero el producto.	xiyu
+route_ae_searchcontact	Продавец, врет, обзывает меня, как ускорить решение вопроса?	eyu
+route_ae_manageorder	No puedo borrar un pedido que no quiero.	xiyu
+route_ae_manageorder	Я хочу получить счет	eyu
+route_ae_nr	¿Cuándo son las vacaciones? ¿Cuándo enviarán?	xiyu
+route_ae_orderclose	здравствуйте, можно восстановить заказ 700176585483565?	eyu
+route_ae_payment	Оплата по карте прошла	eyu
+route_ae_refund	y aun no recibo el reembolso de mi dinero	xiyu
+route_ae_nr	заказы не отправляются	eyu
+route_ae_nr	No recibí mi pedido.	xiyu
+route_ae_nr	no aun no me a llegado	xiyu
+route_ae_refund	no e recibio el reembolso de mi pedido	xiyu
+route_ae_searchcontact	hola! quiero saber que es swiss post. llega al correo oficial de mi pais?	xiyu
+route_ae_payment	tengo 24 productos pendiente d epago	xiyu
+route_ae_manageorder	Pero yo tengo un correo que dice que la protección del comprador finaliza el 18 de Noviembre.	xiyu
+route_ae_searchcontact	Продавец направляет меня в Али экспресс	eyu
+route_ae_refund	No recibí un reembolso de mi dinero. Han pasado dos meses. ¿Cuándo devolverán el dinero?	xiyu
+route_ae_searchcontact	Me gustaría pedir un producto pero no sé cómo contactar con la compañía.	xiyu
+route_ae_manageorder	нет номера заказа	eyu
+route_ae_payment	PROBLEMA CON MI TARGETA DE PAGO	xiyu
+route_ae_nr	Заказ был направлен в неправильную страну назначения	eyu
+route_ae_nr	Вы можете отправить товар еще раз когда я уже заплатил	eyu
+route_ae_nr	No he recibido mi pedido despues de dos meses.	xiyu
+route_ae_orderclose	Pero después de ponerme “comprobando pago” este se cancela	xiyu
+route_ae_searchcontact	necesito saber que aplicacion usar para conectar un reloj	xiyu
+route_ae_searchcontact	продавец просит номер нарты	eyu
+route_ae_searchcontact	Necesito contactar con el vendedor de mi último pedido	xiyu
+route_ae_searchcontact	¿Cómo puedo enviar una pregunta a un vendedor?	xiyu
+route_ae_refund	no se como transferir el reembolso a wester union	xiyu
+route_ae_refund	куда будет совершено возврат	eyu
+route_ae_orderclose	Если отменить заказ,до завершения отработки, что произойдет?	eyu
+route_ae_nr	tengo 8 pedidos que aun no recibo y se solicitaron desde hace dos meses, me pueden informar en que van	xiyu
+route_ae_searchcontact	Queria saber si podria ayudarme y recomendarme una tienda que tenga charms de pulseras em plata 925 auténtica	xiyu
+route_ae_payment	мошенничество с кредитной картой	eyu
+route_ae_nr	Tengo un pedido retenido en la aduana, y no me responde el vendedor. Y necesitamos el pedido para antes de mediados de diciembre y no se si llegara lleva esta semana retenido en la aduana	xiyu
+route_ae_orderclose	Prefiero anularlo	xiyu
+route_ae_refund	спасибо и когда вернут деньги	eyu
+route_ae_orderclose	¿Cuándo se descongelará mi pedido?	xiyu
+route_ae_manageorder	Можно ли скрыть флаг страны при опубликовании отзыва	eyu
+route_ae_refund	Почему заказ был отменен но не возвращены деньги	eyu
+route_ae_payment	Necesito el codigo emisor de la factura	xiyu
+route_ae_payment	Продавцы пишут мне,чтобы я оплатила их товар,который я уже оплатила	eyu
+route_ae_payment	Tengo un problema con mi pedido en aduana. ¿Pueden enviarme una copia de mi factura?	xiyu
+route_ae_refund	ВЕРНУТ ЛИ ДЕНЬГИ ПО ЗАКАЗУ	eyu
+route_ae_payment	уменя не прошел платеж	eyu
+route_ae_searchcontact	Подавец не дает адрес	eyu
+route_ae_manageorder	No sé si la compra de mis productos se validaron	xiyu
+route_ae_payment	¿Puedo enviar un cheque como método de pago?	xiyu
+route_ae_refund	Estado de la petición de reembolso.	xiyu
+route_ae_nr	Pero ya habia aparecido como pagado y enviado	xiyu
+route_ae_refund	А если там не написано что возмещен?	eyu
+route_ae_manageorder	Как изменить адрес доставки?	eyu
+route_ae_searchcontact	нет там таких окон	eyu
+route_ae_manageorder	abrí sin recordar que tenia esta cuenta otra	xiyu
+route_ae_nr	resulta que hay un pedido que ya debería haberme llegado y no he recibido nada	xiyu
+route_ae_payment	я не могу оплатить заказ через мобильный телефон	eyu
+route_ae_orderclose	Могу ли я отменить заказ	eyu
+route_ae_refund	y tampoco he recibido el rebolso	xiyu
+route_ae_refund	Y que me reembolsen el dinero	xiyu
+route_ae_manageorder	¿Cómo cambio mi pedido?	xiyu
+route_ae_manageorder	У меня задвоились заказы	eyu
+route_ae_refund	Qué tengo que hacer para conseguir un reembolso	xiyu
+route_ae_searchcontact	si no contesta la disputa el vendedor ?	xiyu
+route_ae_orderclose	Здравствуйте, почему все мои последние заказы закрыты?	eyu
+route_ae_manageorder	Eliminar los pedidos cerrados.	xiyu
+route_ae_nr	Продавец дал мне неправильный трек-номер Что делать	eyu
+route_ae_payment	могу ли я оплатить с телефона заказ у меня мтс	eyu
+route_ae_orderclose	producto cerrado	xiyu
+route_ae_nr	quiero hacer seguimiento a mi pedido	xiyu
+route_ae_manageorder	¿Qué significa Pedido sospechoso?	xiyu
+route_ae_payment	NO PAGO CON TARJETA PAGO POR WESTER UNION	xiyu
+route_ae_manageorder	Я выбрал неправильный размер	eyu
+route_ae_refund	32 dólares de los cuales ni el artículo, ni el reembolso tengo, quien responde por este dinero?	xiyu
+route_ae_nr	я хочу знать когда мой зказ отравиться	eyu
+route_ae_manageorder	¿Cómo dejo valoraciones?	xiyu
+route_ae_orderclose	Quiero cancelar el pago de un producto, lo acabe de pagar, es posible?	xiyu
+route_ae_payment	no el vendedor me dice q tengo q tener cuenta paypal	xiyu
+route_ae_searchcontact	No encuentro los detalles de los tipos de paquetes de un movil	xiyu
+route_ae_nr	что делать если заказ не отслеживается?:	eyu
+route_ae_searchcontact	Можно ли сказать что продавец осуществляет деятельность на законных условиях	eyu
+route_ae_manageorder	как поменять размер	eyu
+route_ae_refund	на какую карту вернуться деньги?	eyu
+route_ae_orderclose	Нет товара в корзине, который я удалила	eyu
+route_ae_manageorder	я по ошибке нажала "подтвердить получение товара" что делать	eyu
+route_ae_refund	no han enviado mi reembolso	xiyu
+route_ae_manageorder	Заказ №: 83884142552577	eyu
+route_ae_nr	Где мой товар не пришел уже 8месяц.	eyu
+route_ae_searchcontact	quiero comprar distintos tipos de un solo producto pero no quiero pagar el envio de cada uno	xiyu
+route_ae_refund	no e recibido el reembolso aun de una disputa	xiyu
+route_ae_nr	No he recibido respuesta de mi pedido	xiyu
+route_ae_manageorder	я заказывала дочке резиновые шлёпки	eyu
+route_ae_manageorder	Тогда пожалуйста проверьте статус заказа 86286143576502	eyu
+route_ae_orderclose	El vendedor rechaza mi solicitud de cancelación del pedido.	xiyu
+route_ae_payment	Почему нет списания с Карты?	eyu
+route_ae_payment	¿Puedo pagar con otro método de pago?	xiyu
+route_ae_orderclose	y aliexpress me cancelo la cuenta	xiyu
+route_ae_orderclose	Por que mi pedido se cancelo	xiyu
+route_ae_nr	в транзите это что	eyu
+route_ae_nr	Pedido no recibido	xiyu
+route_ae_orderclose	Деньги сняли, статус заказа закрыт почему?	eyu
+route_ae_manageorder	Почему в мобильном приложении весит много моих заказов?	eyu
+route_ae_orderclose	Отменили заказ восстановите заказ пожалуйста	eyu
+route_ae_refund	Не получил возврат денежных средств за 700643252502216	eyu
+route_ae_orderclose	почему все мои заказы закрыты?	eyu
+route_ae_manageorder	Там просят поменять адрес , якобы подругому не отправят	eyu
+route_ae_nr	Diez productos que no me llegaron	xiyu
+route_ae_manageorder	el vendedor no quiere mandar mi pedido	xiyu
+route_ae_nr	Я не могу отследить заказ.	eyu
+route_ae_refund	Ya llegamos a un acuerdo parael reembolso ya q el pedidose perdio y no llego a mis manos	xiyu
+route_ae_manageorder	¿Cuándo puedo dejar valoración?	xiyu
+route_ae_nr	resulta que el tiempo de protección esta por terminar pero mi producto no llega y tiene como tiempo limite 20 días después de que se termina el tiempo de protección al comprador	xiyu
+route_ae_orderclose	Resulta que ayer hice un pedido, pero me equivoqué en una orden, lo cancelé y volví a pedir otro	xiyu
+route_ae_refund	Статус платежа "Обработка возмещения". Ждать от 3 до 20 дней?	eyu
+route_ae_payment	Quiero saber por qué tengo un cargo en mi tarjeta de crédito antes de recibir los pedidos.	xiyu
+route_ae_manageorder	Cómo mirar los detalles de los productos pedidos.	xiyu
+route_ae_refund	Хочу вернуть деньги за заказ	eyu
+route_ae_nr	а отслеживание неправильный адрес и телефон	eyu
+route_ae_refund	Как можно связаться с банком, чтобы денежку побыстрее возвратили?	eyu
+route_ae_payment	He pedido un artículo y no puedo pagarlo por transferencia bancaria.	xiyu
+route_ae_nr	y aun no me llega mi pedido	xiyu
+route_ae_searchcontact	Я ищу товар	eyu
+route_ae_refund	Me he cambiado de banco por tanto si me tienen que hacer uns devolución la tarjeta no es la misma	xiyu
+route_ae_refund	Если я не хочу больше оформлять заказ, как мне вернуть деньги?	eyu
+route_ae_searchcontact	¿Puedo obtener algunas muestras?	xiyu
+route_ae_manageorder	la protección del comprador ya finalizó	xiyu
+route_ae_manageorder	ГДЕ ПОСМОТРЕТЬ НОМЕР ЗАКАЗАНОЙ ЕЩИ	eyu
+route_ae_nr	Заказ №: 504080797513721 присвоен номер , но не отправлен	eyu
+route_ae_manageorder	Где можно увидеть сформирован ли мой заказ	eyu
+route_ae_nr	Там пишут транспортировка отменена	eyu
+route_ae_refund	reemboslo	xiyu
+route_ae_payment	No puedo pagar mi pedido	xiyu
+route_ae_searchcontact	Я пытаюсь связаться с продавцом но он не отвечает	eyu
+route_ae_payment	tengo problemas con aduana me piden recibo del pago	xiyu
+route_ae_refund	¿Cuándo recibo mi reembolso?	xiyu
+route_ae_orderclose	Здравствуйте почему несколько последних моих заказов будут отменены	eyu
+route_ae_manageorder	Цитирую не ясное: полное сообщение посылки ?	eyu
+route_ae_orderclose	сколько времени будет ожидаться отмена?	eyu
+route_ae_orderclose	El pedido necesita ser cancelado.	xiyu
+route_ae_manageorder	Acabo de pedir algo, pero quiero cambiar el nombre del receptor.	xiyu
+route_ae_searchcontact	¿Quién paga los gastos de envío?	xiyu
+route_ae_manageorder	necesito ayuda con un pedido	xiyu
+route_ae_refund	Почему до сих пор не вернули деньги?	eyu
+route_ae_payment	Que puedo hacer para realizar el pago??	xiyu
+route_ae_manageorder	сохранение недавно посмотренных товаров было отклочено как включить	eyu
+route_ae_orderclose	me llego un correo diciendo que mis pedidos fueron cancelados y ya aparecen cancelados con la tarjeta de credito	xiyu
+route_ae_searchcontact	Почему не удается напечатать сообщение	eyu
+route_ae_orderclose	cancelacion	xiyu
+route_ae_refund	Заказ приостановлен Знаете ли вы когда от будет доставлен или когда мне возместят средства	eyu
+route_ae_payment	No es mi banco SON USTEDES mi BANCO NO RECHAZA LOS PAGOS	xiyu
+route_ae_refund	Можно побыстрее обратно получить деньги	eyu
+route_ae_manageorder	Добрый день , оформила вчера заказ а он не отображается	eyu
+route_ae_orderclose	Realicé por error mi compra dos veces, dos veces la misma canasta, cancelando dos veces por medio de mi tarjeta de crédito Visa. Obviamente sólo quiero mi pedido, una sola canasta. La anulé inmediatamente me dí cuenta de mi error. Pero quiero saber si se r	xiyu
+route_ae_payment	¿Cómo puedo borrar una tarjeta de mi cuenta?	xiyu
+route_ae_nr	Мой Заказ №: 84966397761121 Время заказа: 23:10 Jun. 28 2017.Заказ где-то потерялся в пути,продавец мне один раз продлил время закрытия заказа.Но вот время заказа вышло.Я написал продавцу что открываю спор,он написал,чтобы я подождал несколько дней,но зака	eyu
+route_ae_manageorder	por que mi pedido ha sido devuelto al vendedor?	xiyu
+route_ae_orderclose	Непонятна причина закрытия заказа	eyu
+route_ae_manageorder	Что делать если при заказе товара стоял не правильный адрес?	eyu
+route_ae_nr	Сколько времени займет заказать товар у вас	eyu
+route_ae_refund	Пришло письмо что вернут деньги посмотрите	eyu
+route_ae_nr	RG620276139CN не отслеживается	eyu
+route_ae_searchcontact	¿Por qué no puedo encontrar la tienda en la que solía comprar?	xiyu
+route_ae_nr	Mi pedido está atascado en aduana hace un mes	xiyu
+route_ae_manageorder	заказ номер 504053583943751	eyu
+route_ae_orderclose	solo necesito saber que hacer ya q el vendedor ha cancelado la entrega de mi producto	xiyu
+route_ae_nr	¿Por qué mi pedido tarda tanto en enviarse?	xiyu
+route_ae_payment	quiero comprar pero no me permite pagar con mercado pago que es la unica opcion que tengo por que no tengo tarjeta de credito ni cuenta bancaria,solo dispongo de dinero en efectivo	xiyu
+route_ae_searchcontact	¿Cómo puedo contactar con el vendedor?	xiyu
+route_ae_orderclose	Как отменить заказ в разделе «Заказ отправлен»?	eyu
+route_ae_orderclose	PUEDEN A RESTABLECER UN PEDIDO ,YA QUE POR ERROR LO CANCELE	xiyu
+route_ae_payment	¿Pago antes o después de recibir los productos?	xiyu
+route_ae_payment	как включить 3dкод	eyu
+route_ae_nr	Здравствуйте что делать если я не получил заказ	eyu
+route_ae_refund	Я отменил заказ Как скоро отмена вступит в силу	eyu
+route_ae_refund	reembolso de un producto cancelado	xiyu
+route_ae_orderclose	Ya esta cancelado	xiyu
+route_ae_payment	почему я не могу совершить оплату?	eyu
+route_ae_payment	Утром заказ был оплачен	eyu
+route_ae_refund	Мой заказ закрыт как подозрительный получу ли я возмещение при оплате visa	eyu
+route_ae_manageorder	Как изменить отзыв?	eyu
+route_ae_payment	У меня есть купоны, но при покупке они не действительны. Как быть?	eyu
+route_ae_orderclose	¿CUANTO TIEMPO TENGO PARA CANCELAR MI PEDIDO?	xiyu
+route_ae_orderclose	Продавец не отвечает на просьбу по отмене заказа	eyu
+route_ae_searchcontact	Что такое цена ФОБ	eyu
+route_ae_payment	¿Podrían decirme qué tarjeta usé?	xiyu
+route_ae_searchcontact	Quiero contactar con el vendedor.	xiyu
+route_ae_orderclose	Мой заказ закрыт без указания причины	eyu
+route_ae_payment	2 ОПЛАТЫ ПРОШЛО УСПЕШНО ,А 3 ЧТО НА 62$ НЕ ПРОХОДИТ	eyu
+route_ae_payment	Ya he pagado mi pedido.	xiyu
+route_ae_orderclose	que pasa si el vendedor cancela mi pedido	xiyu
+route_ae_payment	y recien podre hacer el pago a partir de esa fecha	xiyu
+route_ae_searchcontact	Necesito saber algo sobre la talla.	xiyu
+route_ae_refund	buenos días sobre el número de pedido 867 612 144 14359 me dijeron ayer que me pusiera en contacto con vosotros para solventar la incidencia y que me abonais el reembolso	xiyu
+route_ae_searchcontact	Не могу оставить сообщение продавцу	eyu
+route_ae_searchcontact	Посмотрите историю сообщений	eyu
+route_ae_searchcontact	Могут ли продавцы запрашивать паспортные данные?Добрый день	eyu
+route_ae_refund	Здравствуйте! Возврата средств по заказу 85230226977694 до сих пор нет!!! Ваши заверения о том что нужно смотреть выписку из банка ничего не дали, средства в сумме 2161.96 не поступали, судя по распечатке! Где средства? С 26 августа никаких изменений по ст	eyu
+route_ae_nr	Necesito saber cual es el número de seguimiento de este pedido en Chile, 12855027067000203174 682001, el numero en chile va con dos letras al inicio del número y dos letras al final de este.	xiyu
+route_ae_orderclose	Mi vendedor no cancela mi pedido.	xiyu
+route_ae_orderclose	заказ завершен	eyu
+route_ae_orderclose	мне этот заказ не нужен я нажала случайно	eyu
+route_ae_refund	no ha entrad ese dinero a mi banco	xiyu
+route_ae_payment	¿Cómo funciona Moneybookers?	xiyu
+route_ae_searchcontact	Обещал скинуть чек	eyu
+route_ae_payment	quisiera saber como hago una orden sin pagar	xiyu
+route_ae_payment	A ver si nos entendemos: hice unos pedidos,realize los cuatro pasos para realizar el pago por medio de Wester, imprime el cupon con todo los datos y al dirigirme a abonar a la agencia Wester me dicen que ya no reciben depositos a empresas	xiyu
+route_ae_nr	Deseo mi pedido	xiyu
+route_ae_nr	где я получу свой товар	eyu
+route_ae_payment	dos veces he intentado pagar con una tarjeta de credito y al final me dice error de pago	xiyu
+route_ae_nr	no me recebido mi pedido	xiyu
+route_ae_orderclose	ya se ha pagado, pero el vendedor canceló	xiyu
+route_ae_searchcontact	Что делать если продавец не отменит	eyu
+route_ae_nr	y podria verme también otro reembolso que tengo pendiente por mercancia no recibida	xiyu
+route_ae_payment	и через яндекс деньги не получается	eyu
+route_ae_searchcontact	Necesito un correo donde pueda contactarme para hacer un review de sus productos	xiyu
+route_ae_payment	Я немогу оплатить товар	eyu
+route_ae_manageorder	Вот номер моего заказа : 700456493477591	eyu
+route_ae_searchcontact	мне нужен лжостик для управлением байка на пк	eyu
+route_ae_nr	No me yega mi pedido	xiyu
+route_ae_manageorder	я сделала заказ?	eyu
+route_ae_refund	Buenos días. Es por un pedido que devolví y de que no he recibido el reembolso, abrí una disputa y desde la tienda me dijeron que contactase con vosotros, lo hice y sigo esperando una respuesta de vuestro lado.	xiyu
+route_ae_manageorder	Как оценить заказ после завершения	eyu
+route_ae_refund	El pedido está congelado, ¿cómo saber si va a ser enviado o reembolsado?	xiyu
+route_ae_manageorder	porque he recibido un email de El vendedor ha extendido la Protección del Comprador.de mi9 pedido 85184455990583	xiyu
+route_ae_refund	Я подтвердил получение заказа но он отображается обработка средств	eyu
+route_ae_orderclose	я заказал случайно 2 заказа, как отменить один?	eyu
+route_ae_orderclose	Pone pedido finalizado	xiyu
+route_ae_searchcontact	Hice varios pedidos. ¿Pueden enviarlos todos juntos?	xiyu
+route_ae_payment	т.е. мне нужно будет написать о другой карте в техподдержку?	eyu
+route_ae_manageorder	Как оставить анонимный отзыв	eyu
+route_ae_orderclose	Мой заказ закрыли, но платеж по нему прошел 87890310118884	eyu
+route_ae_nr	Заказ ушел обратно!	eyu
+route_ae_refund	hola buenas escribi ayer para decirle que no me han devuelto el reembolso esperaba que la comprobacion tardará 24 horas no se tarda tanto en saberlo digo yo! Quiero recibir mi dinero por favor deme una solución cuanto antes. Me dijo que me enviaría un corr	xiyu
+route_ae_manageorder	va a terminar periodo de proteccion	xiyu
+route_ae_orderclose	Сколько ждать отмены	eyu
+route_ae_manageorder	EL VENDEDOR NO ME HA ENVIADO EL NUMERO DE RASTREO	xiyu
+route_ae_payment	No puedo vincular una tarjeta	xiyu
+route_ae_orderclose	¿Por qué mi pedido se sigue cerrando después del pago?	xiyu
+route_ae_orderclose	el punto es que estoy pagando dos veces el mismo producto, pero uno de los dos pedidos está cancelado	xiyu
+route_ae_payment	Ya hize el reclamo	xiyu
+route_ae_manageorder	¿Cómo compruebo mi pedido?	xiyu
+route_ae_nr	Почему мой заказ еще не здесь	eyu
+route_ae_searchcontact	Мне нужно чтобы заказ доставили за 1-2 дня Я готов платить за это	eyu
+route_ae_searchcontact	при выборе всех функций была цена 5808 рублей	eyu
+route_ae_searchcontact	¿Cuántas tasas de aduanas a pagar?	xiyu
+route_ae_searchcontact	La respuesta no se abre en el Centro de Mensajes.	xiyu
+route_ae_searchcontact	Necesito la dirección del vendedor para la oficina de correos.	xiyu
+route_ae_searchcontact	Продавец не ответил на мои сообщения	eyu
+route_ae_manageorder	Не добавляется адрес доставки	eyu
+route_ae_payment	А что я зря заплотила	eyu
+route_ae_manageorder	Как поменять адрес доставки заказа	eyu
+route_ae_searchcontact	Вы можете дать несколько основных советов по поиску товаров	eyu
+route_ae_payment	realizar un pago delpedido, pero me da error, diciendo que mi tarjeta esta caducada, he elimado las coquis y reiniciado , pero sigue dando error	xiyu
+route_ae_refund	Деньги будут возвращены?	eyu
+route_ae_refund	No me hicieron el reembolso	xiyu
+route_ae_searchcontact	Добрый день ! Продавец не отвечает на мои вопросы	eyu
+route_ae_orderclose	Me gustaría cancelar mi producto. ¿Cómo puedo hacer esto?	xiyu
+route_ae_searchcontact	как связатся с продавцом????????????????????????	eyu
+route_ae_searchcontact	¿Cómo consigo el manual de mis productos?	xiyu
+route_ae_refund	удалил заказ везде,а как вернуть деньги?	eyu
+route_ae_nr	el proveedor envió un paquete con un mismo numero de orden para dos clientes distintos	xiyu
+route_ae_manageorder	Quien paga devolución	xiyu
+route_ae_searchcontact	el pedido llegara por western union	xiyu
+route_ae_nr	Здравствуйте. Проблема такова: заказы приходят на другую почту	eyu
+route_ae_refund	Quiero un reembolso completo, pero el vendedor no está de acuerdo.	xiyu
+route_ae_orderclose	я только заказал и через полчаса отменил	eyu
+route_ae_searchcontact	Вот сначала указана цена 7 руб, открываем а там 60	eyu
+route_ae_manageorder	Я на такую сумму ничего не заказывал	eyu
+route_ae_orderclose	eliminare pedidos ya pagados	xiyu
+route_ae_payment	¿Puedo pagar con tarjeta de débito?	xiyu
+route_ae_refund	Reembolso.	xiyu
+route_ae_nr	El vendedor envío mi pedido a otra dirección y ahora me dice que tengo que pedir otro producto del mismo valor	xiyu
+route_ae_payment	¿Por qué he pagado con Mercado Pago pero mi pedido dice Pendiente de pago?	xiyu
+route_ae_orderclose	Отмена произошла из-за ошибки	eyu
+route_ae_manageorder	Quiero saber qué artículos compré la última vez.	xiyu
+route_ae_manageorder	какие отзывы?	eyu
+route_ae_manageorder	Dirección incompleta	xiyu
+route_ae_payment	Я ничего не заказывал и не получал а деньги списаны	eyu
+route_ae_payment	Здравствуйте, оплатил товар, пишет, что ожидается оплата	eyu
+route_ae_searchcontact	Слишком мало результатов поиска	eyu
+route_ae_searchcontact	¿Cuánto es el envío a Europa?	xiyu
+route_ae_payment	no me permite pagar por actividad de mi cuent	xiyu
+route_ae_payment	Я ПИСАЛА КАРТУ ПРИ ЗАКАЗЕ, А КОГДА ЗАШЛА В АЛИПЛЭЙ ТО ЕЕ ТАМ НЕТ	eyu
+route_ae_nr	mi pedido aun no llega	xiyu
+route_ae_refund	no e recibo mi reembolo de mi pedido 83442380845829	xiyu
+route_ae_nr	que son pedidos congelados	xiyu
+route_ae_nr	Здравствуйте,мой товар отправили ни по месту назначения	eyu
+route_ae_refund	скажите могу ли я ускорить возврат средств при отмене?	eyu
+route_ae_nr	Мне заказ нужен а не деньги,я заказал часы смортфон где они?	eyu
+route_ae_manageorder	на заказе фамилия напесали не провилно что мне делать	eyu
+route_ae_payment	Solo quiero confirmar el pago vía Western Union.	xiyu
+route_ae_nr	No llego a mi domicilio	xiyu
+route_ae_orderclose	87032980463206 este pedido y otro dice cancelado en el proceso logístico	xiyu
+route_ae_manageorder	Как внести изменение в имени получателя?	eyu
+route_ae_manageorder	El pedido es de 9septiembre	xiyu
+route_ae_nr	y el pedido no ha llegado	xiyu
+route_ae_searchcontact	Если я сегодня размещу заказ можно ли его завтра получить	eyu
+route_ae_payment	Я заплатил 2 раза за тот же заказ Что делать	eyu
+route_ae_payment	dónde puedo ver el monto a pagar?	xiyu
+route_ae_orderclose	POR QUÉ ME ANULARON EL PEDIDO?	xiyu
+route_ae_refund	Проблема немрешена, уже прошло 15 дней, а возврата нет	eyu
+route_ae_payment	Mira tengo un problema desde hace semanas. Han parado un paquete en la aduana y no sale de allí, no son válidas las facturas que me manda el vendedor	xiyu
+route_ae_refund	¿Recibiré automáticamente un reembolso si el vendedor no envía mi pedido?	xiyu
+route_ae_payment	не могу оплатить яндкс кошельком	eyu
+route_ae_nr	Я не получил товар.	eyu
+route_ae_manageorder	se realizo una compra el 25 de septiembre del 2017 a las 21:57, era un vestido por numero de pedido 86828038838384, mas dos faldas que se compro en el mismo instante, pero no están registrados en la opción de MIS PEDIDOS, favor informar que paso con el reg	xiyu
+route_ae_nr	NO SE SI YA LO ACEPTO EN EL COURIER	xiyu
+route_ae_payment	Как добавить свою карту?	eyu
+route_ae_manageorder	Pendiente de despacho de aduana que significa?	xiyu
+route_ae_searchcontact	tengo que pagar aduana por compra una maquina que vale 2560€	xiyu
+route_ae_orderclose	No lo puedo cancelar	xiyu
+route_ae_nr	Me podría decir que puedo hacer ya que no he recibido mi pedido	xiyu
+route_ae_refund	Продавец прелагает мне частичный возврат суммы!	eyu
+route_ae_payment	me marco que si se cobro pero que no se hizo el pedido	xiyu
+route_ae_nr	Tengo varios pedidos que nunca me llegaron	xiyu
+route_ae_orderclose	Мне не нужен этот товар	eyu
+route_ae_refund	После отмены я не получил деньги обратно	eyu
+route_ae_searchcontact	no me contesta los mensajes el dueño de la tienda para llegar a un acuerdo de producto perdido en aduana	xiyu
+route_ae_searchcontact	Я послал письмо по электронной почте продавцу как прочитать ответ и как я узнаю когда они ответят	eyu
+route_ae_nr	Согласно информации отслеживания мой заказ доставлен в США но я в Филиппинах	eyu
+route_ae_manageorder	Можете ли вы сказать мне что-нибудь о состоянии моих заказов	eyu
+route_ae_searchcontact	Как найти лот	eyu
+route_ae_searchcontact	Продавец должен оплатить стоимость доставки	eyu
+route_ae_nr	RY549700850CN этот товар до сих не отправлен , не отслеживается	eyu
+route_ae_manageorder	quiero saber que significa prorrogar pedido	xiyu
+route_ae_orderclose	я хочу отменит зак	eyu
+route_ae_orderclose	В заказе нет кнопки отменить заказ.	eyu
+route_ae_payment	NO PUEDO PAGAR MIS ORDENES	xiyu
+route_ae_payment	donde pago	xiyu
+route_ae_orderclose	Я отменила заказ.а продавец не возвращает деньги	eyu
+route_ae_searchcontact	El vendedor no me aceptó la cancelación y no responde mis mensajes ¿qué puedo hacer?	xiyu
+route_ae_searchcontact	el vendedor no me reconoce nada	xiyu
+route_ae_orderclose	Mi pedido fue enviado y luego cancelado	xiyu
+route_ae_refund	¿Cómo recibo un reembolso? Devolví el producto.	xiyu
+route_ae_payment	по моему заказу прошла двойная оплата что делать?	eyu
+route_ae_refund	Я прошу вернуть деньги	eyu
+route_ae_orderclose	Я отменила заказ 87617296371422. Проверте пожалуйста его статус.	eyu
+route_ae_searchcontact	¿Se envió mi pedido por mar o por aire?	xiyu
+route_ae_refund	Через сколько дней придет возврат	eyu
+route_ae_nr	Por error le volví a comprar el producto que no me envió la primera vez	xiyu
+route_ae_refund	Mi reembolso es por mercado pago	xiyu
+route_ae_payment	не проходит оплата картой мир	eyu
+route_ae_manageorder	¿Puedo cambiar las notas que le di a un producto?	xiyu
+route_ae_payment	MIS PAGOS NO PASAN	xiyu
+route_ae_searchcontact	¿Cuántos impuestos de aduanas o importación tengo que pagar?	xiyu
+route_ae_manageorder	No puedo ver en mi cuenta se borró	xiyu
+route_ae_refund	что означает возврат средств в полном объеме	eyu
+route_ae_orderclose	Pagué y mi pedido está congelado.	xiyu
+route_ae_manageorder	Сегодня я сделал заказ	eyu
+route_ae_manageorder	pues que tengo que confirmar la recepcion del pedido	xiyu
+route_ae_payment	no recuerdo como ver donde esta mi tarjeta aqui	xiyu
+route_ae_manageorder	N.º Pedido: 84903642269727	xiyu
+route_ae_refund	Necesito ayuda para q me hagan los reembolsos	xiyu
+route_ae_orderclose	Resulta que hice un pedido, pero no era lo que yo deseaba entonces lo cancelé inmediatamente	xiyu
+route_ae_orderclose	как отменить запрос на отмену заказа	eyu
+route_ae_refund	Когда деньги вернут на карту надоели ваши обещания.	eyu
+route_ae_nr	при отслеживании товара написано состояние отправки:возврат.Как это понять?	eyu
+route_ae_searchcontact	Мой продовец на эти вапросы г отвичает и вообще не отвичает	eyu
+route_ae_orderclose	El vendedor no aprueba mi solicitud de cancelación.	xiyu
+route_ae_nr	Un pedido no llego correctamente	xiyu
+route_ae_refund	тоесть мне могут возвращать средства до 20 дней?	eyu
+route_ae_searchcontact	Можно ли быстрее получить посылки	eyu
+route_ae_searchcontact	Как связаться с продавцом его контакты	eyu
+route_ae_payment	¿Como puedo consultar mis formas de pago?	xiyu
+route_ae_searchcontact	тавар не атправлят продавес а маг узнат зачем	eyu
+route_ae_searchcontact	¿Se pueden usar rupias indias?	xiyu
+route_ae_searchcontact	no he recibido contestacion	xiyu
+route_ae_manageorder	No puedo ver mis pedidos.	xiyu
+route_ae_orderclose	Я подтвердил заказ и отменил а потом удалил	eyu
+route_ae_refund	editar tarjeta de reembolso	xiyu
+route_ae_refund	Отмененила сегодня заказ ,он мне ненужен когда придут деньги на карту	eyu
+route_ae_manageorder	Hay un tiempo de procesamiento del pedido debajo de las opciones de tiempo de entrega. ¿Qué es eso?	xiyu
+route_ae_refund	mi devolución parcial	xiyu
+route_ae_manageorder	Tengo un problema con esta orden	xiyu
+route_ae_nr	Можете ли вы уточнить местонахождения моей посылки?	eyu
+route_ae_nr	Пишет что товар отправлен	eyu
+route_ae_orderclose	Отмена заказа 504560136654053	eyu
+route_ae_manageorder	¿Qué es envío parcial?	xiyu
+route_ae_manageorder	Tengo un problema con una orden	xiyu
+route_ae_searchcontact	Но он не овечает 12 дней	eyu
+route_ae_searchcontact	¿Cómo contacto con los vendedores en AliExpress?	xiyu
+route_ae_payment	Это скриншот о оплате	eyu
+route_ae_nr	Número de pedido:503513008447303 no e recibido el producto i no puedo abrir disputa	xiyu
+route_ae_searchcontact	Как искать товары с более низкой ценой	eyu
+route_ae_payment	Ева если уменя списали деньги за товар магу палучить пасылку	eyu
+route_ae_manageorder	tengo un pedido 85568404987643	xiyu
+route_ae_searchcontact	Si, pero el problema es que el vendedor no contesta	xiyu
+route_ae_orderclose	504003036488862 почему заказ закрыт? я-не получтла товар	eyu
+route_ae_manageorder	я ошиблась с размером	eyu
+route_ae_searchcontact	Есть ли у вас какие-либо сведения об этом магазине	eyu
+route_ae_orderclose	продавец отменил заказ	eyu
+route_ae_nr	si pero porque aun no llega	xiyu
+route_ae_refund	когда вернут деньги за отмену заказа?	eyu
+route_ae_payment	у меня с карты сняли двойную оплату!!!!!	eyu
+route_ae_searchcontact	Мне нужно знать кое-что о размерах	eyu
+route_ae_refund	Necesito que alguien de Aliexpress sepa resolver como gestionar un reembolso; si es en español, mejor	xiyu
+route_ae_refund	y aún no han realizado el reembolso a mi tarjeta de crédito que se debe hacer en ese caso??	xiyu
+route_ae_nr	Mi pedido está ya en España?	xiyu
+route_ae_refund	no me han enviado compensacion	xiyu
+route_ae_orderclose	el vendedor canceló el envío	xiyu
+route_ae_orderclose	Здравствуйте, статус моего заказа закрыт без причины	eyu
+route_ae_refund	Necesito que reembolsen un producto que pedí.	xiyu
+route_ae_orderclose	Pues lo cancele	xiyu
+route_ae_nr	no he recibido mi pedido, y pone anulado por el comprador	xiyu
+route_ae_manageorder	Que sucede si el problema ya fue con mi servicio postal	xiyu
+route_ae_searchcontact	товар недоступен	eyu
+route_ae_nr	Envío demasiado largo.	xiyu
+route_ae_refund	Я хочу знать что означает обработка средств	eyu
+route_ae_payment	¿Puedo hacer pagos con tarjeta de crédito?	xiyu
+route_ae_orderclose	¿Puedo cancelar un pedido?	xiyu
+route_ae_orderclose	Хочу отменить часть заказа	eyu
+route_ae_nr	No puedo ni rastrear mi pedido	xiyu
+route_ae_manageorder	Заказ №: 86155893362920 ???	eyu
+route_ae_orderclose	504375784787386 este pedido lleva congelado mucho tiempo sin informacion de seguimiento	xiyu
+route_ae_nr	se cerro mi pedido pero no lo recibi?	xiyu
+route_ae_manageorder	Можно ответ получить по сатусу заказа ?	eyu
+route_ae_nr	se quedo en aduana	xiyu
+route_ae_payment	Почему не проходит оплата и заказа и сотовой саязи?	eyu
+route_ae_refund	Помогите,пожалуйста вернуть мои деньги	eyu
+route_ae_refund	Quiero la devolucion del dinero	xiyu
+route_ae_searchcontact	как связаться с продавцом	eyu
+route_ae_refund	Necesito mi devolución	xiyu
+route_ae_refund	devoluciones	xiyu
+route_ae_searchcontact	хочу перевести текст товара	eyu
+route_ae_payment	No me deja realizar el pago me dice q no se puede	xiyu
+route_ae_searchcontact	Necesito mediacion con el vendedor	xiyu
+route_ae_orderclose	Заказ стоит закрыт хотя оплачен	eyu
+route_ae_orderclose	Pedido cancelado por. Vendedor	xiyu
+route_ae_orderclose	Я все оплатила, но индекс был не верен, и мне пришлось все удолить	eyu
+route_ae_manageorder	Как я могу изменить заказ	eyu
+route_ae_searchcontact	Товары доставляются по отдельности или вместе	eyu
+route_ae_searchcontact	Товар прибывает прямо в домой или нужно будет пойти в почтовое отделение	eyu
+route_ae_searchcontact	¿Se envía a mi país?	xiyu
+route_ae_nr	¿Por qué no puedo hacer el seguimiento de mi paquete?	xiyu
+route_ae_searchcontact	Ya hice todos los pasos ...pero en vendedor nunca contestó	xiyu
+route_ae_nr	no ,ya no esta en tiempo	xiyu
+route_ae_manageorder	¿Puedo darle al vendedor valoración negativa?	xiyu
+route_ae_nr	Yo lo hice dentro del tiempo estimado. El cliente me puso esto en julio y aun no llega el pedido	xiyu
+route_ae_manageorder	que se refiere con prorrogar el envio del pedido	xiyu
+route_ae_payment	pegamento	xiyu
+route_ae_nr	Nunca recibí el pedido, el estado del pedido dice "plazo de confirmación expirado".	xiyu
+route_ae_searchcontact	продавец молчит	eyu
+route_ae_searchcontact	найди Split ender	eyu
+route_ae_payment	Я не могу оплатить. Инструкция не работает	eyu
+route_ae_manageorder	СТРЕЛКА НЕ ПЕРЕХОДИТ НА Заказ завершен	eyu
+route_ae_manageorder	No me deja acompletar mis pedidos	xiyu
+route_ae_orderclose	por un error puse cancelacion del pedido y lo volvi a pedir y ya lo pague el 25/09/2017 a las 9:38 tiempo de México	xiyu
+route_ae_orderclose	я удалила товар	eyu
+route_ae_manageorder	Tengo un problema con estos dos pedidos	xiyu
+route_ae_payment	Например, яндекс деньги, киви, другая банковская карта	eyu
+route_ae_payment	Pero en la cantidas me pone 1 i el precio esta multiplicado por 3	xiyu
+route_ae_searchcontact	Должен ли я платить налоги бразильской таможне	eyu
+route_ae_orderclose	dice que fue cancelado por el vendor, le mande correo pero sigue igual el estatus	xiyu
+route_ae_manageorder	я заказал не регистрируясь.это как-то влияет на заказ	eyu
+route_ae_orderclose	Quiero saber porque mis pedidos se cierran directamente y el dinero me lo quitais de la cuenta	xiyu
+route_ae_manageorder	a mi localidad (city)le falta una n,es decir e lugar de tandil,dice tadil	xiyu
+route_ae_orderclose	Отказ от заказа	eyu
+route_ae_manageorder	Quiero cambiar el color.	xiyu
+route_ae_searchcontact	Quiero hacer un pago en dolares y no puedo me hacen el cambio a otra moneda q no se cual es.	xiyu
+route_ae_searchcontact	¿Cómo comprobar la fiabilidad del proveedor?	xiyu
+route_ae_refund	el dinero ya me fue devuelto hace una semana	xiyu
+route_ae_payment	Necesito una factura.	xiyu
+route_ae_refund	Добрый день, мне не вернули деньги, от товара отказалась через 10 мин как заказала, продавец написал, что деньги до него даже не дошли, все вопросы к али, но я уже вам писала и мне ответии что возврат будет, а его на сегодняшний день нет, что за безобразие	eyu
+route_ae_payment	у меня visa классик	eyu
+route_ae_orderclose	mi pedido sale com rechazado	xiyu
+route_ae_searchcontact	vendedor no me hace caso	xiyu
+route_ae_payment	я немогу оплатить покупку через Яндекс Деньги	eyu
+route_ae_nr	no he recibido mi pedido y ya pague	xiyu
+route_ae_orderclose	quiero cancelar un producto	xiyu
+route_ae_manageorder	дублируется заказ почему?	eyu
+route_ae_nr	No me han llegado los productos	xiyu
+route_ae_searchcontact	Y si me pongo a enviar mensaje a cada vendedor a preguntar son muchas horas	xiyu
+route_ae_nr	yo quiero la mercancia no el dinero	xiyu
+route_ae_payment	¿En cuánto tiempo será recibido el pago por transferencia bancaria?	xiyu
+route_ae_orderclose	Y la novedad es q el pedido una fue recogido x el tranportista y ahora sale q el pedido fue cancelado quisiera q m ayude xq contando los dias ya an pasado mas 20 dia y no paso nada quisiera hacer q si el pedido esta cancelado como m hacen el reenbolso xq y	xiyu
+route_ae_payment	где я могу узнать почему моя карта неподдерживается?	eyu
+route_ae_refund	Оплатил сегодня, но товар распродан,как быстро бужет возврат средств?	eyu
+route_ae_searchcontact	А как прочитать отзывы о товаре других покупателей?	eyu
+route_ae_refund	Quiero la devolucion de mi dinero este pedido esta cancelado por el vendedor y Vds. han cobrado el importe de mi cuenta y por tanto tienen que devolver mi dinero	xiyu
+route_ae_searchcontact	Здравствуйте, продовец не вернул деньги и не отвечает, что делать?	eyu
+route_ae_refund	¿Cuándo recibiré mi reembolso?	xiyu
+route_ae_payment	У нас большая проблема с оплатой	eyu
+route_ae_searchcontact	Налоги которые мы платим слишком высоки для импорта товаров с вашего сайта	eyu
+route_ae_manageorder	paso mi numero de pedido	xiyu
+route_ae_refund	Устал ждать хочу вернуть деньги	eyu
+route_ae_orderclose	Pero la otra cuenta la cancelé	xiyu
+route_ae_orderclose	Mi pedido fue cerrado porque la cuenta del vendedor ha sido inhabilitada.	xiyu
+route_ae_refund	Quero um reembolso	xiyu
+route_ae_searchcontact	pedi desde Enero un par de zapatillas y en reiteradas oportunidades he escrito al vendedor y no me contesta	xiyu
+route_ae_orderclose	¿Cómo reanudo un pedido?	xiyu
+route_ae_manageorder	me he equivocado y he puesto el codigo postal mal en un pedido que ya se ha enviado ¿ que puedo hacer?	xiyu
+route_ae_manageorder	Где найти мой отзыв от продавцов	eyu
+route_ae_refund	Que me devuelvan mi dinero de un pedido que hace mas de 23 dias que lo pedí	xiyu
+route_ae_orderclose	Mi pedido aparece duplicado, como puedo cancelar la compra del segundo set de productos?	xiyu
+route_ae_nr	Нет ни заказа ни денег. Отправил втарой заказ. Но он тоже не пришел.	eyu
+route_ae_nr	nunca recibi ayer ese producto	xiyu
+route_ae_orderclose	Как их отменить . нету в списке заказов .	eyu
+route_ae_payment	pero no me deja pagar	xiyu
+route_ae_nr	No recibi mi pedido y me llega hoy	xiyu
+route_ae_orderclose	Здравствуйте,я оплатила заказ,деньги сняли,и он сразу стал в статусе закрыт	eyu
+route_ae_payment	volví a entrar a mi cuenta para usar otro medio de pago (que no sea tarjeta)	xiyu
+route_ae_nr	Заказ идёт уже большемесяца как узнать где он	eyu
+route_ae_manageorder	истек срок защиты что делаь	eyu
+route_ae_orderclose	Статус моего заказа " ОБРАБОТКА ПЛАТЕЖА" хотя я отменила заказ	eyu
+route_ae_orderclose	cancel order	xiyu
+route_ae_manageorder	aca tengo el nuemro 87231050052673	xiyu
+route_ae_refund	Ладно спачибо буду ждать возврата денег	eyu
+route_ae_refund	Когда можно получить возврат средств если я оплатил с помощью Boleto	eyu
+route_ae_searchcontact	Сколько я должен платить за таможенные пошлины и налоги	eyu
+route_ae_payment	He recibido un email diciendo que no pagué el pedido.	xiyu
+route_ae_orderclose	Можно ли вернуть отмену заказа?	eyu
+route_ae_nr	Pendiente de recibir.	xiyu
+route_ae_manageorder	Que tal. Tuve un problema con un pedido	xiyu
+route_ae_nr	un pedido que no he recibido	xiyu
+route_ae_payment	НЕ могу произвести оплату. Выдает ошибку.ISC_RS_5100102051	eyu
+route_ae_manageorder	NO PUEDO VISUALIZAR EL ESTADO DE MI PEDIDO	xiyu
+route_ae_orderclose	подтверждение с банка пришло, а стус заказа показывает закрыт	eyu
+route_ae_orderclose	Как мне возобновить заказ , случайно отклонил его	eyu
+route_ae_refund	Вернуть деньги	eyu
+route_ae_refund	quiero recibir mi reembolso pendiente	xiyu
+route_ae_manageorder	так и не решился вопрос с моим товаром	eyu
+route_ae_payment	Как оплатить все одновременно	eyu
+route_ae_searchcontact	Если я ношу большой размер по меркам США он такой же  по меркам в Китае	eyu
+route_ae_manageorder	¿Qué pasa si un pedido se muestra dos veces en mi cuenta?	xiyu
+route_ae_manageorder	Me piden el numero de envio y no lo tengo	xiyu
+route_ae_payment	Tengo una pregunta sobre Alipay Wallet.	xiyu
+route_ae_nr	¿Cómo hago el seguimiento de un pedido cuando pone Pendiente de envío?	xiyu
+route_ae_refund	No lo entiendo muy bien, y querría saber si se me va a devolver el importe	xiyu
+route_ae_payment	Mi pedido no tenía recibo.	xiyu
+route_ae_orderclose	no puedo cancelar un pedido	xiyu
+route_ae_refund	Продавец согласился на возврат средств	eyu
+route_ae_nr	´como puedo averiguar el seguimiento de los pedidos de la otra cuenta que me anuló la compañía en que estaba antes?	xiyu
+route_ae_manageorder	Проверьте пожалуйста этот заказ,я его оплатил 700105798795584	eyu
+route_ae_orderclose	Quiero saber acerca de mi pedido que eh cancelado	xiyu
+route_ae_refund	Tmbién me tienen que hacer un reembolso, para cuando será?	xiyu
+route_ae_refund	идет возврат денег уже 4 месяца. я не получила деньги	eyu
+route_ae_refund	Mi pedido fue cancelado, pero no he recibido mi reembolso.	xiyu
+route_ae_manageorder	мой заказ 5.7 и бесплатная доставка а к оплате больше	eyu
+route_ae_searchcontact	Mi problema es que mi cuenta me sake en dolares y en los envios pone de chena a estados unidos y yo vivo en canarias	xiyu
+route_ae_orderclose	Я оплатила и деньги сняли,а заказ сразу перешел в статус закрыт	eyu
+route_ae_payment	No quiero que usen la tarjeta que esta grabada	xiyu
+route_ae_payment	Могу ли я оплатить 20 товаров	eyu
+route_ae_manageorder	Можно мне выслать свитер на размер больше? Хотела бы 4Т	eyu
+route_ae_orderclose	pedido cancelado da para ativar	xiyu

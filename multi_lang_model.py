@@ -11,7 +11,7 @@ class TCNNConfig(object):
     # label_embedding_dim = 128  # label向量维度
     seq_length = 100  # 序列长度
     num_classes = 0  # 类别数
-    num_tasks = 2
+    num_langs = 2
     num_filters = 128  # 卷积核数目
 
     hidden_dim = 256  # 全连接层神经元
@@ -22,11 +22,7 @@ class TCNNConfig(object):
     batch_size = 64  # 每批训练大小
     num_epochs = 200  # 总迭代轮次
 
-    print_per_batch = 100  # 每多少轮输出一次结果
-    save_per_batch = 200  # 每多少轮存入tensorboard
-
-    # num_features = 4
-    # num_label = 20
+    print_per_batch = 50  # 每多少轮输出一次结果
 
 
 class TextCNN(object):
@@ -35,9 +31,9 @@ class TextCNN(object):
     def __init__(self, config):
         self.config = config
         # 三个待输入的数据
-        self.input_Q = tf.placeholder(tf.int32, [None, self.config.seq_length])
-        self.input_label = tf.placeholder(tf.float32, [None, self.config.num_classes])
-        self.input_task = tf.placeholder(tf.float32, [None, self.config.num_tasks])
+        self.input_x = tf.placeholder(tf.int32, [None, self.config.seq_length])
+        self.input_y = tf.placeholder(tf.float32, [None, self.config.num_classes])
+        self.input_task = tf.placeholder(tf.float32, [None, self.config.num_langs])
         self.keep_prob = tf.placeholder_with_default(1.0, shape=())
 
         self.cnn()
@@ -49,10 +45,6 @@ class TextCNN(object):
         conv_1 = tf.nn.conv1d(x, filter_w_1, padding='SAME', stride=1) + filter_b_1
         h_conv_1 = tf.nn.relu(conv_1)
         h_pool1_flat2 = tf.reduce_max(h_conv_1, reduction_indices=[1])
-
-        # so = tf.nn.softmax(h_pool1_flat2)
-        # adv_loss = tf.reduce_mean(-(1/output_channel) * tf.log(so))
-        # self.adv_losses = self.adv_losses + adv_loss
         return h_pool1_flat2
 
     def network_bcnn(self, embedding_inputs):
@@ -103,7 +95,7 @@ class TextCNN(object):
         """CNN模型"""
         # 词向量映射
         embedding_Q = tf.get_variable('embedding_Q', [self.config.vocab_size, self.config.embedding_dim])
-        embedding_inputs_Q = tf.nn.embedding_lookup(embedding_Q, self.input_Q)
+        embedding_inputs_Q = tf.nn.embedding_lookup(embedding_Q, self.input_x)
         # input dropout
         embedding_inputs_Q = tf.nn.dropout(embedding_inputs_Q, self.keep_prob)
 
@@ -124,7 +116,7 @@ class TextCNN(object):
         self.y_pred_cls = tf.argmax(y_conv, 1)  # 预测类别
 
         # 损失函数，交叉熵
-        cross_entropy = tf.nn.softmax_cross_entropy_with_logits(logits=y_conv, labels=self.input_label)
+        cross_entropy = tf.nn.softmax_cross_entropy_with_logits(logits=y_conv, labels=self.input_y)
         loss_src = tf.reduce_mean(cross_entropy)
 
         # adversary loss
@@ -136,7 +128,7 @@ class TextCNN(object):
         # 优化器
         self.optim = tf.train.AdamOptimizer(learning_rate=self.config.learning_rate).minimize(self.loss)
         # 准确率
-        self.correct_pred = tf.equal(tf.argmax(self.input_label, 1), self.y_pred_cls)
+        self.correct_pred = tf.equal(tf.argmax(self.input_y, 1), self.y_pred_cls)
         self.acc = tf.reduce_mean(tf.cast(self.correct_pred, tf.float32))
 
 

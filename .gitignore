@@ -3,3 +3,4 @@ data/__pycache__/
 checkpoints/
 __pycache__/
 .idea/workspace.xml
+data/cnews/multi_lang.vocab.txt
