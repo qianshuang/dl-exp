@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b5cdad1-aa8c-448b-ba64-e7ae022cd2da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/cnews/eyu.corpus.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/cnews/xiyu.corpus.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi_lang_model.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,8 +38,8 @@
       <file leaf-file-name="rnn_model.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rnn_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="45" column="70" lean-forward="false" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="70" />
+            <state relative-caret-position="256">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -103,7 +102,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="737" />
+    <option name="height" value="705" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -130,17 +129,6 @@
               <item name="dl-exp" type="b2602c69:ProjectViewProjectNode" />
               <item name="dl-exp" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="dl-exp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dl-exp" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dl-exp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dl-exp" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="cnews" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -154,8 +142,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/data/cnews" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/data/cnews" />
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
@@ -278,7 +266,7 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="737" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="705" extended-state="0" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23182553" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -605,8 +593,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rnn_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="45" column="70" lean-forward="false" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="70" />
+        <state relative-caret-position="256">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
