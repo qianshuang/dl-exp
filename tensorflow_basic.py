@@ -53,6 +53,26 @@ print(tf.__version__)  # 输出版本号，测试安装
 # print(x2.graph is graph)  # True
 # print(x2.graph is tf.get_default_graph())  # False
 # print(x2.graph is x1.graph)  # False
+#
+# init = tf.global_variables_initializer()
+#
+# with tf.Session() as sess:
+#     sess.run(init)
+#     print(sess.run(x1))
+#     # 默认情况下，tf.Session()被绑定到默认图，只能执行当前默认图上的操作
+#     # print(sess.run(x2))  # 报错：x2 is not an element of this graph.
+#     print(sess.graph is tf.get_default_graph())  # True
+#
+# with tf.Session(graph=graph) as sess:  # 在新图上创建的session只能执行新图上的操作
+#     init = tf.global_variables_initializer()  # 所以init操作要在新图上重新定义
+#     sess.run(init)
+#     print(sess.run(x2))
+#
+# with graph.as_default():
+#     init = tf.global_variables_initializer()  # 需要在新图上重新定义init操作
+#     sess_1 = tf.Session()  # 在新图上创建session
+#     sess_1.run(init)
+#     print(sess_1.run(x2))  # 2
 
 
 # # 下面的w,x,y,z都是tensor，将tensor转为值，需要sess.run(x)，或者x.eval()
@@ -63,7 +83,7 @@ print(tf.__version__)  # 输出版本号，测试安装
 # y = x + 5
 # z = x * 3
 # # 注意，TensorFlow在执行计算z的时候，并不会重用计算y时已经计算好了的x和w，而是会重新计算x和w
-# with tf.Session() as sess:
+# with tf.Session() as sess:  # 常量不需要先执行init
 #     print(b.eval())
 #     print(y.eval())  # 10
 #     print(z.eval())  # 15
@@ -84,6 +104,7 @@ print(tf.__version__)  # 输出版本号，测试安装
 # print(w_3_1.name)  # w_1_2:0
 #
 # # get_variable也可以用来创建变量，当命名冲突时，系统会报错
+# # 注：TensorFlow的大部分变量都是通过Variable声明的，get_variable只有当需要重用的时候用到
 # w_3 = tf.get_variable(name="w_2", initializer=1)
 # print(w_3.name)  # w_2:0
 # # w_4 = tf.get_variable(name="w_2", initializer=2)  # ValueError: Variable w_2 already exists, disallowed.
