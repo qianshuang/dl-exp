@@ -50,6 +50,7 @@ class TextCNN(object):
             self.y_pred_cls = tf.argmax(y_conv, 1)  # 预测类别
 
         with tf.name_scope("optimize"):
+            # 先分别计算self.input_y和y_conv的softmax，再计算cross_entropy
             self.loss = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels=self.input_y, logits=y_conv))
             # 优化器
             self.optim = tf.train.AdamOptimizer(learning_rate=self.config.learning_rate).minimize(self.loss)

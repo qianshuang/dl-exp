@@ -159,10 +159,10 @@ print(tf.__version__)  # 输出版本号，测试安装
 
 # e2 = tf.get_variable('e2', [None, 64])  # 报错：ValueError: Shape of a new variable (e2) must be fully defined, but instead was (?, 64).
 
-#
+
 # A = tf.placeholder(tf.int32, shape=(None, None))  # 第一个None表示此值未知，根据传入的数据推断出
 # print(A.shape)  # (?, 3)
-# A_shape = tf.shape(A)[0]  # 等价于A.get_shape()[0]
+# A_shape = tf.shape(A)[0]  # 运行时动态计算，是一个ops
 # # A_shape = A.shape[0]  # 不能动态推断出来
 # B = A + A_shape
 #
@@ -173,6 +173,13 @@ print(tf.__version__)  # 输出版本号，测试安装
 # print(B_val_1)  # [[2 3 4]]
 # print(B_val_2)  # [[ 6  7  8], [ 9 10 11]]
 
+theta = tf.Variable(4, name='theta')
+plus = theta + 10
+init = tf.global_variables_initializer()
+with tf.Session() as sess:
+    init.run()
+    # 可以给任意变量feed值，不一定要是placeholder
+    print(sess.run(plus, feed_dict={theta: 10}))  # 20
 
 # theta = tf.Variable(4, name='theta')
 # plus = theta + 10
